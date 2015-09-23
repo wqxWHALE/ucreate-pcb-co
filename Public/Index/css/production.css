@@ -1,0 +1,194 @@
+*{
+	font-family:'微软雅黑';
+	font-size: 16px;
+}
+
+nav{
+	color:#000;
+	background-color: #a1a1a1;
+	height: 43px;
+	text-align: center;
+	line-height:43px; 
+  	overflow:hidden;  
+  	width: 100%;
+}
+
+.navcell{
+	font-size: 18px;
+}
+
+.sign{
+	font-size: 24px;
+	text-align: left;
+}
+
+.navcell a{
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.main{
+	margin-top:4%;
+}
+
+.plan{
+	text-align: center;
+}
+
+.plan a{
+	color: #000;
+	text-decoration: none;
+}
+
+.display{
+
+}
+
+.display img{
+	width: 100%
+}
+
+.low{
+	z-index:999;
+}
+
+.low img{
+	margin-top: 10px;
+}
+
+.dd{
+	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 10%,rgba(255,255,255,.3));
+
+}
+
+.marquee 
+{
+  width:100%;
+  height:45px;
+  overflow:hidden;
+  
+}
+.marquee li
+{ 
+  display:inline; 
+  float:left; 
+  margin-right:12px;
+}
+.marquee li a
+{ 
+  height:360px; 
+  display:block; 
+  float:left; 
+  text-align:center; 
+  font-size:14px;
+}
+.marquee li a:hove
+{ 
+  text-decoration:none;
+}
+.marquee li img
+{
+  width:100px; 
+  height:45px;
+}
+.marquee li em
+{
+  font-style: normal; 
+  height:24px; 
+  line-height:24px; 
+  display:block; 
+  margin-top:8px;
+}
+
+.right{
+	float: right;
+}
+
+.active{
+	color: #FFF;
+	background-color: #C03111;
+	border-left: 2px solid #bc5038;
+	border-right: 2px solid #bc5038;
+	margin: 0px;
+	padding: 0px;
+}
+
+.choice{
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.choice:hover{
+	color: #FFF;
+	background-color: #C03111;
+	border-left: 2px solid #bc5038;
+	border-right: 2px solid #bc5038;
+}
+
+.choice a:hover{
+	color: #FFF;
+}
+
+.vmiddle{
+	line-height:20px;
+}
+
+.input-group{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.navigation{
+	height: 35px;
+	background-color: #000;
+	border: 1px solid #333;
+}
+
+.navigation a{
+	line-height: 32px;
+	color:#FFF;
+}
+
+.framework{
+	background-color: #ffffff;
+}
+
+.price{
+	color: #C03111;
+	text-align: right;
+	font-size: 22px;
+}
+
+.page{
+	background-color: #ffffff; 
+	float: right;
+}
+
+footer{
+	height: 36px;
+	background-color: #363738;
+}
+
+footer a{
+	font-size: 13px;
+	color: #c8cbcc;
+}
+
+footer a:hover{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.middle{
+	padding-top: 4px;
+	text-align: center;
+}
+

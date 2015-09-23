@@ -1,0 +1,102 @@
+*{
+	font-family:'微软雅黑';
+	font-size: 16px;
+}
+
+nav{
+	color:#FFF;
+	background-color: #000;
+	height: 43px;
+	text-align: center;
+	line-height:43px; 
+  	overflow:hidden;  
+  	width: 100%;
+}
+
+.navcell{
+	font-size: 18px;
+	text-align: right;
+}
+
+.navcell a{
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.main{
+	margin-top:4%;
+}
+
+.plan{
+	text-align: center;
+}
+
+.plan a{
+	color: #000;
+	text-decoration: none;
+}
+
+.display{
+
+}
+
+.display img{
+	width: 100%
+}
+
+.low{
+	z-index:999;
+}
+
+.low img{
+	margin-top: 10px;
+}
+
+.dd{
+	-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 10%,rgba(255,255,255,.3));
+
+}
+
+.marquee 
+{
+  width:100%;
+  height:45px;
+  overflow:hidden;
+  
+}
+.marquee li
+{ 
+  display:inline; 
+  float:left; 
+  margin-right:12px;
+}
+.marquee li a
+{ 
+  height:360px; 
+  display:block; 
+  float:left; 
+  text-align:center; 
+  font-size:14px;
+}
+.marquee li a:hove
+{ 
+  text-decoration:none;
+}
+.marquee li img
+{
+  width:100px; 
+  height:45px;
+}
+.marquee li em
+{
+  font-style: normal; 
+  height:24px; 
+  line-height:24px; 
+  display:block; 
+  margin-top:8px;
+}

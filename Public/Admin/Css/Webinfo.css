@@ -1,0 +1,11 @@
+#page-wrapper {
+    position: inherit;
+    margin: 0px;
+    padding: 0px 30px;
+}
+
+#page-wrapper {
+    padding: 0px 15px;
+    min-height: 568px;
+    background-color: #FFF;
+}
