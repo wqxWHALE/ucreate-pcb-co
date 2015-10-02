@@ -122,7 +122,7 @@
           </ul>
         </li>              
       </ul>
-      <a class="brand" href="index.html">
+      <a class="brand">
         <span class="second">合创电路有限公司</span>
       </a>
     </div>
