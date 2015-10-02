@@ -1,5 +1,6 @@
 <?php
 $dbConfig = include('Common/Conf/db_config.php');
+$publicConfig = include('Common/Conf/public.php');
 $appConfig =  array(
     // 调试页
     'SHOW_PAGE_TRACE' =>false,
@@ -21,25 +22,7 @@ $appConfig =  array(
     '右'  => 2,
     'TOP'    => 1,
     'BOTTOM' => 0, 
-    '微信二维码'  => 'ERWEIMA',
-    '素描'    => 'SUMIAO',
-    '色彩'    => 'SECAI',
-    '速写'    => 'SUXIE',
-    '学生作品' => 'STUDENT',
-    '明星师资' => 'TEACHER',
-    '历届成绩' => 'ACHIEVEMENT',
-    '作品展示' => 'WORKS',
-    '教学环境' => 'ENVIRONMENT',
-    '教学安排' => 'EDUCATION',
-    '生活安排' => 'LIFE',
-    '1977介绍' => 'INTRODUCTION',
-    '办学特色' => 'SPECIAL',
-    '关于我们' => 'ABOUT',
     '分页'    => 11,
-    '电话'    => 'PHONE',
-    '备案'    => 'BEIAN',
-    '版权'    => 'BANQUAN',
-    '地址'    => 'ADDRESS',
 );
 
-return array_merge($appConfig, $dbConfig);
+return array_merge($appConfig, $dbConfig, $publicConfig);

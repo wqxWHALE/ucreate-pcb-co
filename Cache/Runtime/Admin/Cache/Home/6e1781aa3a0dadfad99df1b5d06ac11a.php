@@ -17,7 +17,9 @@
     <!-- Font-awesome core CSS -->
     <link href="/ucreate-pcb-co/Public/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link href="/ucreate-pcb-co/Public/Admin/Css/Homepage.css" rel="stylesheet">
+    <link href="/ucreate-pcb-co/Public/Admin/Css/Common.css" rel="stylesheet">
+
+    <link href="/ucreate-pcb-co/Public/Admin/Css/Operation.css" rel="stylesheet">
     
 </head>
 <body>

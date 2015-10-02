@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <title>网站基础信息</title>
-    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <title>运维信息</title>
+    <link rel="icon" href="/ucreate-pcb-co/Public/Uploads/img/logo.png">
     <!-- Bootstrap core CSS -->
-    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
-    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+    <link href="/ucreate-pcb-co/Public/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="/ucreate-pcb-co/Public/Admin/Js/jquery.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/bootstrap.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/docs.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- Font-awesome core CSS -->
-    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/ucreate-pcb-co/Public/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Chart core JS -->
-    <script src="__PUBLIC__/Admin/Js/Chart.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/Chart.js"></script>
 
-    <link href="__PUBLIC__/Admin/Css/Webinfo.css" rel="stylesheet">
+    <link href="/ucreate-pcb-co/Public/Admin/Css/Operation.css" rel="stylesheet">
 
     <script type="text/javascript">
         $(document).ready(function() 
@@ -39,11 +39,11 @@
 </head>
 <body>
 
-<div id="page-wrapper" >
+<div id="page-wrapper">
     <div class="row">
         <div class="col-md-12">        
             <h1 class="page-header">
-                网站基础信息
+                运维信息
             </h1>
         </div>
     </div>
@@ -143,28 +143,28 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row" style="margin:11px;">
-                                系统类型及版本号：{$system_type_version}
+                                系统类型及版本号：<?php echo ($system_type_version); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                PHP运行方式：{$run_type}
+                                PHP运行方式：<?php echo ($run_type); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                PHP版本：{$php_version}
+                                PHP版本：<?php echo ($php_version); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                PHP安装路径：{$php_path}
+                                PHP安装路径：<?php echo ($php_path); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                当前服务器ip：{$current_server_ip}
+                                当前服务器ip：<?php echo ($current_server_ip); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                当前服务器端口号：{$current_server_port}
+                                当前服务器端口号：<?php echo ($current_server_port); ?>
                             </div>
                             <div class="row" style="margin:11px;">
-                                域名：{$domain}
+                                域名：<?php echo ($domain); ?>
                             </div>
                             <div class="row" style="margin:8px;">
-                                所有解析引擎：{$server_software}
+                                所有解析引擎：<?php echo ($server_software); ?>
                             </div>
                         </div>
                     </div>
@@ -220,64 +220,27 @@
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <i class=" icon-hdd"></i>
-                    基础信息
-                </div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-12">
-                                电话：{$phone}
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                备案：{$beian}
-                                </div>
-                            </div>
-                            <div class="row" style="">
-                                <div class="col-md-12">
-                                版权：{$banquan}
-                                </div>
-                            </div>
-                            <div class="row" style="">
-                                <div class="col-md-12">
-                                地址：{$address}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href="{:U('Webinfo/alter_info')}" type="button" style="margin-top:8px;width:100%;" class="btn btn-success">修 改</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
     <script>
 
         var lineChartData = {
-            labels : ['{$visitorDay.date.0}','{$visitorDay.date.1}','{$visitorDay.date.2}','{$visitorDay.date.3}','{$visitorDay.date.4}','{$visitorDay.date.5}','{$visitorDay.date.6}'],
+            labels : ['<?php echo ($visitorDay["date"]["0"]); ?>','<?php echo ($visitorDay["date"]["1"]); ?>','<?php echo ($visitorDay["date"]["2"]); ?>','<?php echo ($visitorDay["date"]["3"]); ?>','<?php echo ($visitorDay["date"]["4"]); ?>','<?php echo ($visitorDay["date"]["5"]); ?>','<?php echo ($visitorDay["date"]["6"]); ?>'],
             datasets : [
                 {
                     fillColor : "rgba(220,220,220,0.5)",
                     strokeColor : "rgba(220,220,220,1)",
                     pointColor : "rgba(220,220,220,1)",
                     pointStrokeColor : "#fff",
-                    data : [{$visitorDay.ave},{$visitorDay.ave},{$visitorDay.ave},{$visitorDay.ave},{$visitorDay.ave},{$visitorDay.ave},{$visitorDay.ave}]
+                    data : [<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>,<?php echo ($visitorDay["ave"]); ?>]
                 },
                 {
                     fillColor : "rgba(151,187,205,0.5)",
                     strokeColor : "rgba(151,187,205,1)",
                     pointColor : "rgba(151,187,205,1)",
                     pointStrokeColor : "#fff",
-                    data : [{$visitorDay.count.0},{$visitorDay.count.1},{$visitorDay.count.2},{$visitorDay.count.3},{$visitorDay.count.4},{$visitorDay.count.5},{$visitorDay.count.6}]
+                    data : [<?php echo ($visitorDay["count"]["0"]); ?>,<?php echo ($visitorDay["count"]["1"]); ?>,<?php echo ($visitorDay["count"]["2"]); ?>,<?php echo ($visitorDay["count"]["3"]); ?>,<?php echo ($visitorDay["count"]["4"]); ?>,<?php echo ($visitorDay["count"]["5"]); ?>,<?php echo ($visitorDay["count"]["6"]); ?>]
                 }
             ]
             
@@ -287,51 +250,51 @@
 
             var pieData = [
                 {
-                    value: {$visitorMonth['01']},
+                    value: <?php echo ($visitorMonth['01']); ?>,
                     color:"#F38630"
                 },
                 {
-                    value : {$visitorMonth['02']},
+                    value : <?php echo ($visitorMonth['02']); ?>,
                     color : "#F472A0"
                 },
                 {
-                    value : {$visitorMonth['03']},
+                    value : <?php echo ($visitorMonth['03']); ?>,
                     color : "#E51400"
                 },
                 {
-                    value : {$visitorMonth['04']},
+                    value : <?php echo ($visitorMonth['04']); ?>,
                     color : "#69D2E7"
                 },
                 {
-                    value : {$visitorMonth['05']},
+                    value : <?php echo ($visitorMonth['05']); ?>,
                     color : "#1BA1E2"
                 },
                 {
-                    value : {$visitorMonth['06']},
+                    value : <?php echo ($visitorMonth['06']); ?>,
                     color : "#647687"
                 },
                 {
-                    value : {$visitorMonth['07']},
+                    value : <?php echo ($visitorMonth['07']); ?>,
                     color : "#E0E4CC"
                 },
                 {
-                    value : {$visitorMonth['08']},
+                    value : <?php echo ($visitorMonth['08']); ?>,
                     color : "#00ABA9"
                 },
                 {
-                    value : {$visitorMonth['09']},
+                    value : <?php echo ($visitorMonth['09']); ?>,
                     color : "#008A00"
                 },
                 {
-                    value : {$visitorMonth['10']},
+                    value : <?php echo ($visitorMonth['10']); ?>,
                     color : "#6D8764"
                 },
                 {
-                    value : {$visitorMonth['11']},
+                    value : <?php echo ($visitorMonth['11']); ?>,
                     color : "#E3C800"
                 },
                 {
-                    value : {$visitorMonth['12']},
+                    value : <?php echo ($visitorMonth['12']); ?>,
                     color : "#AA00FF"
                 }
             ];

@@ -1,12 +1,12 @@
 <?php
 /**
  *  AUTHOR:CMB
- *  DATE:2015/6/08
- *  FUNCTION: 网站基础信息（后台）
+ *  DATE:2015/10/02
+ *  FUNCTION: 运维信息（后台）
  */
 namespace Home\Controller;
 use Think\Controller;
-class WebinfoController extends CommonController {
+class OperationController extends CommonController {
 	
     /* 主页显示 */
     public function index(){
@@ -36,70 +36,6 @@ class WebinfoController extends CommonController {
         $this->address = $address['content'];
         // 显示模板
         $this->display();
-    }
-
-    public function alter_info(){
-        // 获取电话
-        $this->phone   = M('webinfo')->where(array('type' => C('电话')))->find();
-        // 获取备案
-        $this->beian   = M('webinfo')->where(array('type' => C('备案')))->find();
-        // 获取版权
-        $this->banquan = M('webinfo')->where(array('type' => C('版权')))->find();
-        // 获取地址
-        $this->address = M('webinfo')->where(array('type' => C('地址')))->find();
-        // 显示模板
-        $this->display();
-    }
-
-    public function alter_info_handle(){
-        // 获取参数
-        $phone   = $_POST['phone'];
-        $beian   = $_POST['beian'];
-        $banquan = $_POST['banquan'];
-        $address = $_POST['address'];
-        // 输入限制
-        if($phone   == ""){
-            $this->error('请输入电话');
-        }
-        if($beian   == ""){
-            $this->error('请输入备案');
-        }
-        if($banquan == ""){
-            $this->error('请输入版权');
-        }
-        if($address == ""){
-            $this->error('请输入地址');
-        }
-        // 构造数据
-        $phone = array(
-            'id'           => 1,
-             'content'     => $phone,
-            'controller'   => $_SESSION['loginname'],
-            'created_time' => Date('Y-m-d H:i:s')
-        );
-        $beian = array(
-            'id'           => 2,
-            'content'      => $beian,
-            'controller'   => $_SESSION['loginname'],
-            'created_time' => Date('Y-m-d H:i:s')
-        );
-        $banquan = array(
-            'id'           => 3,
-            'content'      => $banquan,
-            'controller'   => $_SESSION['loginname'],
-            'created_time' => Date('Y-m-d H:i:s')
-        );
-        $address = array(
-            'id'           => 4,
-            'content'      => $address,
-            'controller'   => $_SESSION['loginname'],
-            'created_time' => Date('Y-m-d H:i:s')
-        );
-        M('webinfo')->data($phone)->save();
-        M('webinfo')->data($beian)->save();
-        M('webinfo')->data($banquan)->save();
-        M('webinfo')->data($address)->save();
-        $this->success('修改成功',U('Webinfo/index'));
     }
 
     /* 获取月 */
@@ -195,6 +131,84 @@ class WebinfoController extends CommonController {
             'ave'   => (int)($sum/7),
         );
         return $day;
-    } 
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////    分割线     //////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    /* 访问者详情显示 */
+    public function visitor(){
+        // 获得当前页数
+        $pageNumber = $_GET['p'];
+        if($pageNumber == "") $pageNumber = 0;
+        // 进行分页数据查询 注意page方法的参数的前面部分是当前的页数使用 $_GET[p]获取
+        $visitor = M('visitor')->order('created_time desc')->page($pageNumber,C('分页'))->select();
+        // 查询满足要求的总记录数
+        $count             = M('visitor')->count();
+        // 实例化分页类 传入总记录数和每页显示的记录数
+        $page              = new \Think\Page($count,C('分页'));
+        // 分页显示输出
+        $show              = $page->show();
+        // 数据映射
+        $this->page        = $show;
+        $this->visitor     = $visitor;
+        // 显示模板
+        $this->display();
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////    分割线     //////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    /* 用户信息显示 */
+    public function user(){
+        // 基础信息
+        $this->name      = M('webinfo')->where(array('type' => C('公司名')))->find();
+        $this->beian     = M('webinfo')->where(array('type' => C('备案')))->find();
+        $this->telephone = M('webinfo')->where(array('type' => C('电话')))->find();
+        $this->fax       = M('webinfo')->where(array('type' => C('传真')))->find();
+        $this->email     = M('webinfo')->where(array('type' => C('邮箱')))->find();
+        $this->website   = M('webinfo')->where(array('type' => C('网站')))->find();
+        $this->office    = M('webinfo')->where(array('type' => C('办公室')))->find();
+        $this->factory_shenzhen = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
+        $this->factory_huizhou  = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
+        // 显示模板
+        $this->display();
+    }
+
+    /* 用户信息修改显示 */
+    public function user_alter(){
+        // 获取GET参数
+        $id   = $_GET['id'];
+        $name = $_GET['name'];
+        // 查找数据
+        $data = M('webinfo')->find($id);
+        $data['name'] = $name;
+        $this->data = $data;
+        // 显示模板
+        $this->display();
+    }
+
+    /* 用户信息修改处理 */
+    public function user_alter_handle(){
+        // 获取POST参数
+        $id      = $_POST['id'];
+        $content = $_POST['content'];
+        // 构造数据
+        $data = array(
+            'id'           => $id,
+            'content'      => $content,
+            'controller'   => $_SESSION['loginname'],
+            'created_time' => Date('Y-m-d H:i:s')
+        );
+        // 数据更新
+        if(!M('webinfo')->data($data)->save())
+        {
+            echo 'webinfo表更新数据出错';die;
+        }else{
+            $this->success('修改成功',U('Operation/User'));
+        }
+    }
 
 }
