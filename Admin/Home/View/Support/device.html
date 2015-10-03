@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>技术支持</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function() 
+        {  
+
+        });
+    </script>
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                技术支持
+            </h1>
+        </div>
+    </div>
+    <!-- 设备简介 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-user"></i>
+                    设备简介
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            {$device.content}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a type="button" style="width:100%;margin-top:8px;" class="btn btn-success" href="{:U('Support/alter_device')}?id={$device.id}">修 改 设 备 简 介</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 设备展示 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-group"></i>
+                    设备展示
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8" style="padding-top:8px;">
+                            <p>添加设备展示。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="float:right;"><a href="{:U('Support/add_show')}" style="width:100px;"type="button" class="btn btn-primary"> 添 加 图 片 </a></div>
+                        </div>
+                    </div>
+                </div>  
+                <table class="table table-hover" style="border-bottom:1px solid #DDD;">
+                    <thead>
+                        <tr>
+                          <th class="col-md-4"><div align="center">序号</div></th>
+                          <th class="col-md-4"><div align="center">图片</div></th>
+                          <th class="col-md-4"><div align="center">操作</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='show' item ='data' key='key'>
+                        <tr>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;">{$key+1}</div>
+                                </div>
+                            </th>
+                            <td>
+                                <div align="center">
+                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}')">
+                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:10px;">
+                                        <a href="{:U('Support/alter_show')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                        <a href="{:U('Support/delete_show_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>      
+            </div>
+        </div>
+    </div>  
+</div>
+</body>
+</html>

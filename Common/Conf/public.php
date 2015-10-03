@@ -18,6 +18,9 @@ return array (
 	'软板'    => 'SOFT',
 	'硬板'    => 'HARD',
 	'软硬结合板' => 'MIXTURE',
+	'设备简介' => 'DEVICE',
+	'设备展示' => 'DEVICE',
+	'生产流程' => 'PROCESS',
 
 	// sort
 	'左'   => 1,
