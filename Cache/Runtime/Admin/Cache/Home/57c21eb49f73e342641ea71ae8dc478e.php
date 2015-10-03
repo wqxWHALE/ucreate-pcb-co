@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <title>修改用户信息</title>
+    <title>修改软板产品</title>
     <link rel="icon" href="/ucreate-pcb-co/Public/Uploads/img/logo.png">
     <!-- Bootstrap core CSS -->
     <link href="/ucreate-pcb-co/Public/Admin/Css/bootstrap.min.css" rel="stylesheet">
@@ -106,12 +106,24 @@
                   <td><input name="minilinewidth" class="form-control" style="width:320px;" placeholder="请输入最小线宽线距" value="<?php echo ($data["minilinewidth"]); ?>" type="text"></td>
                 </tr>
                 <tr>
+                  <td>BGA:</td>
+                  <td><input name="bga" class="form-control" style="width:320px;" placeholder="请输入BGA" value="<?php echo ($data["bga"]); ?>" type="text"></td>
+                </tr>
+                <tr>
+                  <td>最小孔:</td>
+                  <td><input name="minihole" class="form-control" style="width:320px;" placeholder="请输入最小孔" value="<?php echo ($data["minihole"]); ?>" type="text"></td>
+                </tr>
+                <tr>
                   <td>铜厚:</td>
                   <td><input name="copperthickness" class="form-control" style="width:320px;" placeholder="请输入铜厚" value="<?php echo ($data["copperthickness"]); ?>" type="text"></td>
                 </tr>
                 <tr>
                   <td>表面处理:</td>
                   <td><input name="surfacetreatment" class="form-control" style="width:320px;" placeholder="请输入表面处理" value="<?php echo ($data["surfacetreatment"]); ?>" type="text"></td>
+                </tr>
+                <tr>
+                  <td>尺寸:</td>
+                  <td><input name="size" class="form-control" style="width:320px;" placeholder="请输入尺寸" value="<?php echo ($data["size"]); ?>" type="text"></td>
                 </tr>
                 <tr>
                   <td>当前图片:</td>
