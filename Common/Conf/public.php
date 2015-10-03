@@ -15,5 +15,14 @@ return array (
 	'关于我们' => 'ABOUTUS',
 	'市场成就' => 'ACHIEVEMENT',
 	'组织架构' => 'CONSTRUCTION',
+	'软板'    => 'SOFT',
+	'硬板'    => 'HARD',
+	'软硬结合板' => 'MIXTURE',
+
+	// sort
+	'左'   => 1,
+    '右'  => 2,
+    'TOP'    => 1,
+    'BOTTOM' => 0, 
 
 );

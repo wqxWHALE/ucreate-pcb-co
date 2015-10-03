@@ -42,7 +42,7 @@ class CommonController extends Controller {
         $date = date('Y',time());
 
         // 设置存储路径
-        $dirname = $_SERVER['DOCUMENT_ROOT']. __ROOT__ . '/Uploads/img/'. $date;
+        $dirname = $_SERVER['DOCUMENT_ROOT']. __ROOT__ . '/Uploads/image/'. $date;
 
         // 建立存储文件夹，如果不存在则建立
         // Windows版本

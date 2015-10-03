@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>软板</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function() 
+        {  
+
+        });
+    </script>
+    <script type="text/javascript">  
+        $(document).ready(function() 
+        {  
+            window.top.window.iFrameHeight();
+            window.top.window.callApplicationCount();
+        });
+
+        function callmyModal_1(u){
+            window.top.window.myModalImage(u);
+        }
+    </script>
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                软板
+            </h1>
+        </div>
+    </div>
+    <!-- 软板 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12" style="margin-bottom:10px;">
+                    <div style="float:left;margin-top:-5px;">
+                        <h4>总共{$count}个软板产品</h4>
+                    </div>
+                    <div style="float:right;"><a href="{:U('Production/add_soft')}" style="width:150px;"type="button" class="btn btn-primary">新 增 软 板</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                  <th class="col-md-2"><div align="center">序号</div></th>
+                                  <th class="col-md-3"><div align="center">图片</div></th>
+                                  <th class="col-md-3"><div align="center">排序</div></th>
+                                  <th class="col-md-2"><div align="center">操作</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name='soft' item ='data' key='key'>
+                                <tr>
+                                    <th scope="row">
+                                        <div align="center">
+                                            <div style="padding-top:15px;">{$key+1}</div>
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div align="center">
+                                            <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}');">
+                                                <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div align="center">
+                                            <div style="width:200px;padding-top:6px;">
+                                                <if condition="$key eq 0"> 
+                                                    <a href="{:U('Production/sort_soft_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                                <elseif condition="$key eq count($soft)-1"/>
+                                                    <a href="{:U('Production/sort_soft_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                                <else />
+                                                    <a href="{:U('Production/sort_soft_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                                    <a href="{:U('Production/sort_soft_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                                </if>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div align="center">
+                                            <div style="width:200px;padding-top:10px;">
+                                                <a href="{:U('Production/alter_soft')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                                <a href="{:U('Production/delete_soft_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
