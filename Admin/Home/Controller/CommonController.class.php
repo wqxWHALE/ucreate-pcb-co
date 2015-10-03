@@ -61,7 +61,7 @@ class CommonController extends Controller {
         // 限制上传的类型
         $upload->allowExts = array('jpg', 'png', 'jpeg', 'bmp','gif'); 
         // 设置上传的路径
-        $upload->savePath = $_SERVER['DOCUMENT_ROOT']. __ROOT__ . '/Uploads/img/'. $date .'/';
+        $upload->savePath = $_SERVER['DOCUMENT_ROOT']. __ROOT__ . '/Uploads/image/'. $date .'/';
         // 上传图片并判断是否上传成功
         if (!$upload->upload()){
             // 上传失败打印信息
@@ -74,7 +74,7 @@ class CommonController extends Controller {
             $filename = $info[0]['name'];
             $filetype = strrchr($filename, ".");
             $filename = str_replace($filetype,"",$filename);
-            $savePath = '/Uploads/img/'. $date .'/'.$info[0]['savename'];      
+            $savePath = '/Uploads/image/'. $date .'/'.$info[0]['savename'];      
         }
         // 返回Uploads表对应的id
         return $savePath;

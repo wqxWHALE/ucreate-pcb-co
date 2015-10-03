@@ -10,4 +10,10 @@ return array (
 	'办公室'   => 'OFFICE',
 	'深圳工厂' => 'FACTORYSHENZHEN',
 	'惠州工厂' => 'FACTORYHUIZHOU',
+
+	// 模块
+	'关于我们' => 'ABOUTUS',
+	'市场成就' => 'ACHIEVEMENT',
+	'组织架构' => 'CONSTRUCTION',
+
 );

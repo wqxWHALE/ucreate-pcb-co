@@ -21,7 +21,16 @@
           $('.nav-list').children('li').attr('class','#');
           $(this).attr('class','active');
       });
+      $(".nav-header").click(function(){
+          $('.nav').children('li').attr('class','#');
+          $('.nav-list').children('li').attr('class','#');
+      });
     });
+
+    function myModalImage(src){
+      $("#mymodali").attr("src",src);
+      $("#myModalImage").modal('toggle');
+    }
 
     var browserVersion = window.navigator.userAgent.toUpperCase();
     var isOpera = false;
@@ -140,7 +149,7 @@
       <li ><a href="<?php echo U('Operation/Visitor');?>">访问者详情</a></li>      
     </ul>
 
-    <a href="#" class="nav-header" data-toggle="collapse">
+    <a href="<?php echo U('About/index');?>" class="nav-header">
       <i class="icon-user"></i>关于我们
     </a>
 
@@ -217,3 +226,18 @@
   </script> 
   </body>
 </html>
+
+<!-- Modal_Image -->
+<div class="modal fade" id="myModalImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">图片预览</h4>
+      </div>
+      <div class="modal-body">
+        <img id="mymodali" src="" class="img-rounded" style="width:570px;">
+      </div>
+    </div>
+  </div>
+</div>
