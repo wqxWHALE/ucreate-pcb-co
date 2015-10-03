@@ -217,7 +217,9 @@ class SupportController extends CommonController {
     /* 显示 */
     public function ability(){
         // 读取数据
-        $this->ability = M('ability')->select();
+        $ability       = M('ability')->select();
+        $this->count   = COUNT($ability);
+        $this->ability = $ability;
         // 显示模板
         $this->display();
     }

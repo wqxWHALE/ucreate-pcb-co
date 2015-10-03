@@ -178,7 +178,7 @@ class OperationController extends CommonController {
     }
 
     /* 用户信息修改显示 */
-    public function user_alter(){
+    public function alter_user(){
         // 获取GET参数
         $id   = $_GET['id'];
         $name = $_GET['name'];
@@ -191,7 +191,7 @@ class OperationController extends CommonController {
     }
 
     /* 用户信息修改处理 */
-    public function user_alter_handle(){
+    public function alter_user_handle(){
         // 获取POST参数
         $id      = $_POST['id'];
         $content = $_POST['content'];
