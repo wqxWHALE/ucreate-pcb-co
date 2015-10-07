@@ -21,6 +21,8 @@ return array (
 	'设备简介' => 'DEVICE',
 	'设备展示' => 'DEVICE',
 	'生产流程' => 'PROCESS',
+	'人才理念' => 'IDEA',
+	'酬薪福利' => 'WELFARE',
 
 	// sort
 	'左'   => 1,

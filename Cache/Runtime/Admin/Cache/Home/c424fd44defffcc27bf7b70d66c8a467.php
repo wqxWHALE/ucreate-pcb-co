@@ -47,47 +47,47 @@
                         <tr>
                           <td style="col-md-4">公司名：</td>
                           <td style="col-md-6"><?php echo ($name['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($name['id']); ?>&name=公司名" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($name['id']); ?>&name=公司名" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
                           <td style="col-md-4">备案：</td>
                           <td style="col-md-6"> <?php echo ($beian['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($beian['id']); ?>&name=备案" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($beian['id']); ?>&name=备案" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr> 
                         <tr>
                           <td style="col-md-3">电话：</td>
                           <td style="col-md-8"><?php echo ($telephone['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($telephone['id']); ?>&name=电话" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($telephone['id']); ?>&name=电话" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
                           <td style="col-md-4">传真：</td>
                           <td style="col-md-6"><?php echo ($fax['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($fax['id']); ?>&name=传真" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($fax['id']); ?>&name=传真" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
                           <td style="col-md-3">邮箱：</td>
                           <td style="col-md-8"><?php echo ($email['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($email['id']); ?>&name=邮箱" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($email['id']); ?>&name=邮箱" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr> 
                         <tr>
                           <td style="col-md-4">网站：</td>
                           <td style="col-md-6"><?php echo ($website['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($website['id']); ?>&name=网站" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($website['id']); ?>&name=网站" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
                           <td style="col-md-4">办公室：</td>
                           <td style="col-md-6"><?php echo ($office['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($office['id']); ?>&name=办公室" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($office['id']); ?>&name=办公室" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
                           <td style="col-md-4">深圳工厂：</td>
                           <td style="col-md-6"><?php echo ($factory_shenzhen['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($factory_shenzhen['id']); ?>&name=深圳工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($factory_shenzhen['id']); ?>&name=深圳工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr> 
                         <tr>
                           <td style="col-md-4">惠州工厂：</td>
                           <td style="col-md-6"><?php echo ($factory_huizhou['content']); ?></td>
-                          <td style="col-md-2"><a href="<?php echo U('Operation/user_alter');?>?id=<?php echo ($factory_huizhou['id']); ?>&name=惠州工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                          <td style="col-md-2"><a href="<?php echo U('Operation/alter_user');?>?id=<?php echo ($factory_huizhou['id']); ?>&name=惠州工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>       
                       </tbody>
                     </table>
