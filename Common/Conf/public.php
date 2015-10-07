@@ -23,6 +23,8 @@ return array (
 	'生产流程' => 'PROCESS',
 	'人才理念' => 'IDEA',
 	'酬薪福利' => 'WELFARE',
+	'企业精神' => 'SPIRIT',
+	'企业文化建设' => 'BUILD',
 
 	// sort
 	'左'   => 1,

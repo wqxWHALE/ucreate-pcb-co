@@ -25,6 +25,18 @@
 
         });
     </script>
+
+    <script type="text/javascript">  
+        $(document).ready(function() 
+        {  
+            window.top.window.iFrameHeight();
+            window.top.window.callApplicationCount();
+        });
+
+        function callmyModal_1(u){
+            window.top.window.myModalImage(u);
+        }
+    </script>
     
 </head>
 <body>

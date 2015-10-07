@@ -60,7 +60,7 @@ class SupportController extends CommonController {
     public function show(){
         // 条件
         $where = array('type'=> C('设备展示'));
-        $data  = M('picture')->where($where)->order('sort')->select();
+        $data  = M('picture')->where($where)->select();
         $this->count = COUNT($data);
         $this->show  = $data;
         // 显示模板

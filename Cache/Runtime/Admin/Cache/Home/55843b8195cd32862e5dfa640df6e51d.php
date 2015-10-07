@@ -187,8 +187,8 @@
       <i class="icon-chevron-up" style="margin-top: 10px;"></i>
     </a>
     <ul id="cultrue-menu" class="nav nav-list collapse">
-      <li ><a href="privacy-policy.html">企业精神</a></li>
-      <li ><a href="terms-and-conditions.html">企业文化建设</a></li>
+      <li ><a href="<?php echo U('Culture/spirit');?>">企业精神</a></li>
+      <li ><a href="<?php echo U('Culture/build');?>">企业文化建设</a></li>
     </ul>
 
     <a href="<?php echo U('Recruit/index');?>" class="nav-header">

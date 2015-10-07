@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <title>技术支持</title>
-    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <title>企业文化建设</title>
+    <link rel="icon" href="/ucreate-pcb-co/Public/Uploads/img/logo.png">
     <!-- Bootstrap core CSS -->
-    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
-    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
-    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+    <link href="/ucreate-pcb-co/Public/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="/ucreate-pcb-co/Public/Admin/Js/jquery.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/bootstrap.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/docs.min.js"></script>
+    <script src="/ucreate-pcb-co/Public/Admin/Js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- Font-awesome core CSS -->
-    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/ucreate-pcb-co/Public/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+    <link href="/ucreate-pcb-co/Public/Admin/Css/Operation.css" rel="stylesheet">
 
     <script type="text/javascript">
         $(document).ready(function() 
@@ -45,89 +45,93 @@
     <div class="row">
         <div class="col-md-12">        
             <h1 class="page-header">
-                技术支持
+                企业文化建设
             </h1>
         </div>
     </div>
-    <!-- 设备简介 -->
+    <!-- 企业文化建设文字介绍 -->
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <i class="icon-user"></i>
-                    设备简介
+                    文字介绍
                 </div>
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-12">
-                            {$device.content}
+                            <?php echo ($build["content"]); ?>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <a type="button" style="width:100%;margin-top:8px;" class="btn btn-success" href="{:U('Support/alter_device')}?id={$device.id}">修 改 设 备 简 介</a>
+                            <a type="button" style="width:100%;margin-top:8px;" class="btn btn-success" href="<?php echo U('Culture/alter_build_text');?>?id=<?php echo ($build["id"]); ?>">修改文字介绍</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- 设备展示 -->
+    <!-- 企业文化建设图片 -->
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <i class="icon-group"></i>
-                    设备展示
+                    图片介绍
                 </div>
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-8" style="padding-top:8px;">
-                            <p>添加设备展示。</p>
+                            <p>添加企业文化建设图片介绍。</p>
                         </div>
                         <div class="col-md-4">
-                            <div style="float:right;"><a href="{:U('Support/add_show')}" style="width:100px;"type="button" class="btn btn-primary"> 添 加 图 片 </a></div>
+                            <div style="float:right;"><a href="<?php echo U('Culture/add_picture');?>" style="width:100px;"type="button" class="btn btn-primary"> 添 加 图 片 </a></div>
                         </div>
                     </div>
                 </div>  
                 <table class="table table-hover" style="border-bottom:1px solid #DDD;">
                     <thead>
                         <tr>
-                          <th class="col-md-4"><div align="center">序号</div></th>
+                          <th class="col-md-2"><div align="center">序号</div></th>
+                          <th class="col-md-4"><div align="center">标题</div></th>
                           <th class="col-md-4"><div align="center">图片</div></th>
-                          <th class="col-md-4"><div align="center">操作</div></th>
+                          <th class="col-md-2"><div align="center">操作</div></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <foreach name='show' item ='data' key='key'>
-                        <tr>
+                        <?php if(is_array($picture)): foreach($picture as $key=>$data): ?><tr>
                             <th scope="row">
                                 <div align="center">
-                                    <div style="padding-top:15px;">{$key+1}</div>
+                                    <div style="padding-top:15px;"><?php echo ($key+1); ?></div>
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;"><?php echo ($data["title"]); ?></div>
                                 </div>
                             </th>
                             <td>
                                 <div align="center">
-                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}')">
-                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    <a href="#" onclick="callmyModal_1('/ucreate-pcb-co<?php echo ($data["pic_adr"]); ?>')">
+                                        <img src="/ucreate-pcb-co<?php echo ($data["pic_adr"]); ?>" class="img-rounded" style="height:50px;">
                                     </a>
                                 </div>
                             </td>
                             <td>
                                 <div align="center">
                                     <div style="width:200px;padding-top:10px;">
-                                        <a href="{:U('Support/alter_show')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
-                                        <a href="{:U('Support/delete_show_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                        <a href="<?php echo U('Culture/alter_picture');?>?id=<?php echo ($data["id"]); ?>" type="button" class="btn btn-success">修 改</a>
+                                        <a href="<?php echo U('Culture/delete_picture_handle');?>?id=<?php echo ($data["id"]); ?>" type="button" class="btn btn-danger">删 除</a>
                                     </div>
                                 </div>
                             </td>
-                        </tr>
-                        </foreach>
+                        </tr><?php endforeach; endif; ?>
                     </tbody>
                 </table>      
             </div>
         </div>
-    </div>  
+    </div>
 </div>
 </body>
 </html>
