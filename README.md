@@ -1,7 +1,7 @@
 # ucreate-pcb-co
 >合创电路有限公司网站
 >
->前台:wangqixing
+>前台:qixing
 >
 >后台:chenmingbiao(CMB)
 
