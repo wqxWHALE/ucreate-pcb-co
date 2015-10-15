@@ -145,8 +145,8 @@
     </a>
     <ul id="dashboard-menu" class="nav nav-list collapse in">
       <li class="active"><a href="<?php echo U('Operation/index');?>">运维信息</a></li>
-      <li><a href="<?php echo U('Operation/User');?>">用户信息</a></li>
-      <li ><a href="<?php echo U('Operation/Visitor');?>">访问者详情</a></li>      
+      <li><a href="<?php echo U('Operation/user');?>">用户信息</a></li>
+      <li ><a href="<?php echo U('Operation/visitor');?>">访问者详情</a></li>      
     </ul>
 
     <a href="<?php echo U('About/index');?>" class="nav-header">
@@ -173,14 +173,14 @@
       <li ><a href="<?php echo U('Support/ability');?>">生产能力</a></li>
     </ul>
 
-    <a href="#quality-menu" class="nav-header collapsed" data-toggle="collapse">
+    <a href="<?php echo U('Quality/index');?>" class="nav-header">
       <i class="icon-book"></i>资质证书
-      <i class="icon-chevron-up" style="margin-top: 10px;"></i>
+<!--       <i class="icon-chevron-up" style="margin-top: 10px;"></i> -->
     </a>
-    <ul id="quality-menu" class="nav nav-list collapse">
+<!--     <ul id="quality-menu" class="nav nav-list collapse">
       <li ><a href="privacy-policy.html">体系认证</a></li>
       <li ><a href="terms-and-conditions.html">质量方针</a></li>
-    </ul>
+    </ul> -->
 
     <a href="#cultrue-menu" class="nav-header collapsed" data-toggle="collapse">
       <i class="icon-glass"></i>企业文化

@@ -25,6 +25,7 @@ return array (
 	'酬薪福利' => 'WELFARE',
 	'企业精神' => 'SPIRIT',
 	'企业文化建设' => 'BUILD',
+	'资格证书'   => 'QUALITY',
 
 	// sort
 	'左'   => 1,
