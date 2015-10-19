@@ -31,7 +31,9 @@ return array (
 	'人才理念' => 'IDEA',
 	'酬薪福利' => 'WELFARE',
 	'企业精神' => 'SPIRIT',
+	'企业精神英文' => 'SPIRIT_EN',
 	'企业文化建设' => 'BUILD',
+	'企业文化建设英文' => 'BUILD_EN',
 	'资格证书'   => 'QUALITY',
 
 	// sort

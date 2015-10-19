@@ -205,8 +205,21 @@
       <li ><a href="<?php echo U('Culture/build');?>">企业文化建设</a></li>
     </ul>
 
+    <a href="#cultrue-menu-en" class="nav-header collapsed" data-toggle="collapse">
+      <i class="icon-glass"></i>企业文化(英文)
+      <i class="icon-chevron-up" style="margin-top: 10px;"></i>
+    </a>
+    <ul id="cultrue-menu-en" class="nav nav-list collapse">
+      <li ><a href="<?php echo U('Culture/spirit_en');?>">企业精神(英文)</a></li>
+      <li ><a href="<?php echo U('Culture/build_en');?>">企业文化建设(英文)</a></li>
+    </ul>
+
     <a href="<?php echo U('Recruit/index');?>" class="nav-header">
       <i class="icon-legal"></i>人才招聘
+    </a>
+
+    <a href="<?php echo U('Recruit/index_en');?>" class="nav-header">
+      <i class="icon-legal"></i>人才招聘(英文)
     </a>
 
     <a href="#" class="nav-header" data-toggle="collapse">
@@ -216,6 +229,10 @@
 
     <a href="<?php echo U('News/index');?>" class="nav-header" >
       <i class="icon-bullhorn"></i>新闻中心
+    </a>
+
+    <a href="<?php echo U('News/index_en');?>" class="nav-header" >
+      <i class="icon-bullhorn"></i>新闻中心(英文)
     </a>
 
   </div>
