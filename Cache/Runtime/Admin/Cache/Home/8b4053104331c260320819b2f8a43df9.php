@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <title>修改<?php echo ($name); ?></title>
+    <title>修改<?php echo ($name); ?>(英文)</title>
     <link rel="icon" href="/ucreate-pcb-co/Public/Uploads/img/logo.png">
     <!-- Bootstrap core CSS -->
     <link href="/ucreate-pcb-co/Public/Admin/Css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@
     <div class="row">
         <div class="col-md-12">        
             <h1 class="page-header">
-                修改<?php echo ($name); ?>
+                修改<?php echo ($name); ?>(英文)
             </h1>
         </div>
     </div>
@@ -73,12 +73,12 @@
     <div class="row">
         <div class="col-md-12">
             <ol class="breadcrumb">
-              <li><a href="<?php echo U('Recruit/index');?>"><?php echo ($name); ?></a></li>
+              <li><a href="<?php echo U('Recruit/index_en');?>"><?php echo ($name); ?>(英文)</a></li>
               <li class="active">修改<?php echo ($name); ?></li>
             </ol>
         </div>
     </div>
-    <form class="form-signin" enctype="multipart/form-data" role="form" action="<?php echo U('Recruit/alter_handle');?>" method='post' id="form">
+    <form class="form-signin" enctype="multipart/form-data" role="form" action="<?php echo U('Recruit/alter_en_handle');?>" method='post' id="form">
     <!-- 主体 -->
     <div class="row">
         <div class="col-md-12">
@@ -94,7 +94,7 @@
         <div class="col-md-12">
             <div class="bs-callout bs-callout-info" id="callout-alerts-dismiss-plugin">
                 <h4>说明</h4>
-                <p>修改<?php echo ($name); ?>。</p>
+                <p>修改<?php echo ($name); ?>(英文)。</p>
             </div>
         </div>
     </div>
