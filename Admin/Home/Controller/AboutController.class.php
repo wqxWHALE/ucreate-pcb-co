@@ -95,4 +95,51 @@ class AboutController extends CommonController {
         }
     }
 
+    ///////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////    分割线     //////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
+
+    /* 主页显示 */
+    public function index_en(){
+        // 关于我们
+        $where       = array('type' => C('关于我们英文'));
+        $this->about = M('text')->where($where)->find();
+
+        // // 关于我们
+        // $where       = array('type' => C('组织架构英文'));
+        // $this->construction = M('picture')->where($where)->find();
+
+        // 显示模板
+        $this->display();
+    }
+
+    /* 修改 */
+    public function alter_en(){
+        // 获取GET数据
+        $id          = $_GET['id'];
+        $this->about = M('text')->find($id);
+        // 显示模板
+        $this->display();
+    }
+
+    /* 修改处理 */
+    public function alter_en_handle(){
+        // 获取POST数据
+        $id      = $_POST['id'];
+        $content = $_POST['content'];
+        // 构造数据
+        $data = array(
+            'id'      => $id,
+            'content' => $content,
+            'controller'   => $_SESSION['loginname'],
+            'created_time' => Date('Y-m-d H:i:s')
+        );
+        // 数据更新
+        if(!M('text')->data($data)->save())
+        {
+            echo 'text表更新数据出错';die;
+        }else{
+            $this->success('修改成功',U('About/index_en'));
+        }
+    }
 }

@@ -145,12 +145,16 @@
     </a>
     <ul id="dashboard-menu" class="nav nav-list collapse in">
       <li class="active"><a href="<?php echo U('Operation/index');?>">运维信息</a></li>
-      <li><a href="<?php echo U('Operation/user');?>">用户信息</a></li>
+      <li><a href="<?php echo U('Operation/user');?>">公司信息</a></li>
       <li ><a href="<?php echo U('Operation/visitor');?>">访问者详情</a></li>      
     </ul>
 
     <a href="<?php echo U('About/index');?>" class="nav-header">
       <i class="icon-user"></i>关于我们
+    </a>
+
+    <a href="<?php echo U('About/index_en');?>" class="nav-header">
+      <i class="icon-user"></i>关于我们(英文)
     </a>
 
     <a href="#production-menu" class="nav-header collapsed" data-toggle="collapse">
@@ -171,6 +175,16 @@
       <li ><a href="<?php echo U('Support/device');?>">设备展示</a></li>
       <li ><a href="<?php echo U('Support/process');?>">生产流程</a></li>
       <li ><a href="<?php echo U('Support/ability');?>">生产能力</a></li>
+    </ul>
+
+    <a href="#support-menu-en" class="nav-header collapsed" data-toggle="collapse">
+      <i class="icon-question-sign"></i>技术支持(英文)
+      <i class="icon-chevron-up" style="margin-top: 10px;"></i>
+    </a>
+    <ul id="support-menu-en" class="nav nav-list collapse">
+      <li ><a href="<?php echo U('Support/device_en');?>">设备展示(英文)</a></li>
+      <li ><a href="<?php echo U('Support/process_en');?>">生产流程(英文)</a></li>
+      <li ><a href="<?php echo U('Support/ability_en');?>">生产能力(英文)</a></li>
     </ul>
 
     <a href="<?php echo U('Quality/index');?>" class="nav-header">

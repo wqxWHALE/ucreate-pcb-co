@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>修改设备简介(英文)</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Admin/Css/Common.css" rel="stylesheet">
+
+    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function() 
+        {  
+
+        });
+    </script>
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                修改设备简介(英文)
+            </h1>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+              <li><a href="{:U('Support/device_en')}">技术支持(英文)</a></li>
+              <li class="active">修改设备简介</li>
+            </ol>
+        </div>
+    </div>
+    <form class="form-signin" role="form" action="{:U('Support/alter_device_en_handle')}" method='post' id="form">
+    <!-- 主体 -->
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td>内容:</td>
+                  <td><textarea name="content" class="form-control" rows="5" placeholder="请输入内容">{$data.content}</textarea></td>
+                </tr>
+              </tbody>
+            </table>
+            <input name="id" value="{$data.id}" type="hidden">
+            <div style="float:right;"><button type="submit" class="btn btn-primary">提 交</button></div>
+        </div>
+    </div>
+    </form>
+    <!-- 说明 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bs-callout bs-callout-info" id="callout-alerts-dismiss-plugin">
+                <h4>说明</h4>
+                <p>修改设备简介(英文)</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

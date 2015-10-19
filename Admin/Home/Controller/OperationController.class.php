@@ -165,6 +165,7 @@ class OperationController extends CommonController {
     public function user(){
         // 基础信息
         $this->name      = M('webinfo')->where(array('type' => C('公司名')))->find();
+        $this->name_en   = M('webinfo')->where(array('type' => C('公司名英文')))->find();
         $this->beian     = M('webinfo')->where(array('type' => C('备案')))->find();
         $this->telephone = M('webinfo')->where(array('type' => C('电话')))->find();
         $this->fax       = M('webinfo')->where(array('type' => C('传真')))->find();
@@ -173,6 +174,9 @@ class OperationController extends CommonController {
         $this->office    = M('webinfo')->where(array('type' => C('办公室')))->find();
         $this->factory_shenzhen = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
         $this->factory_huizhou  = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
+        $this->office_en    = M('webinfo')->where(array('type' => C('办公室英文')))->find();
+        $this->factory_shenzhen_en = M('webinfo')->where(array('type' => C('深圳工厂英文')))->find();
+        $this->factory_huizhou_en  = M('webinfo')->where(array('type' => C('惠州工厂英文')))->find();
         // 显示模板
         $this->display();
     }

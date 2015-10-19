@@ -50,6 +50,11 @@
                           <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$name['id']}&name=公司名" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
+                          <td style="col-md-4">公司名(英文)：</td>
+                          <td style="col-md-6">{$name_en['content']}</td>
+                          <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$name_en['id']}&name=公司名(英文)" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                        </tr>
+                        <tr>
                           <td style="col-md-4">备案：</td>
                           <td style="col-md-6"> {$beian['content']}</td>
                           <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$beian['id']}&name=备案" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
@@ -80,15 +85,30 @@
                           <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$office['id']}&name=办公室" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
                         </tr>
                         <tr>
+                          <td style="col-md-4">办公室(英文)：</td>
+                          <td style="col-md-6">{$office_en['content']}</td>
+                          <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$office_en['id']}&name=办公室(英文)" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                        </tr>
+                        <tr>
                           <td style="col-md-4">深圳工厂：</td>
                           <td style="col-md-6">{$factory_shenzhen['content']}</td>
                           <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$factory_shenzhen['id']}&name=深圳工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
-                        </tr> 
+                        </tr>
+                        <tr>
+                          <td style="col-md-4">深圳工厂(英文)：</td>
+                          <td style="col-md-6">{$factory_shenzhen_en['content']}</td>
+                          <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$factory_shenzhen_en['id']}&name=深圳工厂(英文)" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                        </tr>
                         <tr>
                           <td style="col-md-4">惠州工厂：</td>
                           <td style="col-md-6">{$factory_huizhou['content']}</td>
                           <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$factory_huizhou['id']}&name=惠州工厂" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
-                        </tr>       
+                        </tr> 
+                        <tr>
+                          <td style="col-md-4">惠州工厂(英文)：</td>
+                          <td style="col-md-6">{$factory_huizhou_en['content']}</td>
+                          <td style="col-md-2"><a href="{:U('Operation/alter_user')}?id={$factory_huizhou_en['id']}&name=惠州工厂(英文)" type="submit" style="width:100%;" class="btn btn-success">修 改</a></td>
+                        </tr>      
                       </tbody>
                     </table>
                 </div>
