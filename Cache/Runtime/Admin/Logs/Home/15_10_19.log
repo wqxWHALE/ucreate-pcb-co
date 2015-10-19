@@ -8799,3 +8799,1054 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
 
+[ 2015-10-19T22:46:09+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-10-19T22:46:10+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-10-19T22:46:11+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+ERR: 非法操作:index_en
+
+[ 2015-10-19T22:51:31+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-10-19T22:51:33+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-10-19T22:51:35+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-10-19T22:51:36+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2015-10-19T22:51:37+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-10-19T22:51:41+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0299s ]
+SQL: INSERT INTO `uc_news_en` (`title`,`content`,`click`,`controller`,`created_time`) VALUES ('1','2','0','admin','2015-10-19 22:51:41') [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-10-19T22:51:42+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2015-10-19T22:51:43+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-10-19T22:51:44+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-10-19T22:51:45+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/delete_en_handle.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0593s ]
+SQL: DELETE FROM `uc_news_en` WHERE `id` = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-10-19T22:51:47+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-10-19T22:51:48+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-10-19T22:51:49+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2015-10-19T22:54:29+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010015s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0212s ]
+SQL: INSERT INTO `uc_news` (`title`,`content`,`click`,`controller`,`created_time`) VALUES (' Electronics Fair & electronicAsia Open in Hong Kong','<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">13
+October 2015</span></strong><span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\">&nbsp;</span></span><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">– The 35th HKTDC Hong
+Kong Electronics Fair (Autumn Edition) opened alongside the 19th edition of
+electronicAsia at the Hong Kong Convention and Exhibition Centre (HKCEC) today.
+Continuing through 16 October, the parallel fairs have attracted industry
+leaders, global brands and the hottest innovations to Hong Kong. The
+Electronics Fair is organised by the Hong Kong Trade Development Council
+(HKTDC) while electronicAsia is jointly-organised by the HKTDC and MMI Asia Pte
+Ltd. The two fairs have attracted more than 4,100 exhibitors from 27 countries
+and regions, making the event the world’s largest electronics marketplace.
+&nbsp;</span><span class=\"apple-converted-space\"><br />
+<span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\"> </span></span>
+</p>
+<p>
+	<span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\"><br />
+</span></span>
+</p>
+<p>
+	<span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\"></span></span><strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">New exhibitors and
+themed zones</span></strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"> <span style=\"background:white;\">The Electronics Fair marks its 35th edition by
+welcoming new exhibitors from Poland, Russia and the United Arab Emirates.
+&nbsp; Two new zones, Smart Tech as well as Robotics and Unmanned Tech, are
+making their debuts at the fair alongside established highlights such as the 3D
+Printing zone and Wearable Electronics zone. Some of the top electronics brands
+are housed in the Hall of Fame, with Binatone, De’Longhi, Fujikon, Goodway,
+Motorola, Philips, Tunbow and VTech among those taking part. &nbsp;</span></span><span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\">&nbsp;</span></span><strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"></span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">New conference examines IoT trends</span></strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"> <span style=\"background:white;\">With the rapid advances in smart devices and
+mobile technology, the Internet of Things (IoT) is playing a bigger part in our
+daily lives. A new conference held at the Electronics Fair today explores the future
+of IoT in business. The “IoT Revolution – How does it benefit your business?”
+conference gathers leaders from some of the world’s biggest tech companies to
+plot the IoT trends and discuss how companies will need to adapt to capture the
+opportunities from IoT. &nbsp; The morning session on “Global Trend on IoT
+Development &amp; the Arising Opportunities” features top-level speakers
+including Yuki Hon, Senior Technology Evangelist, Microsoft Hong Kong Limited;
+Ravi Gokhale, Director and Head of Texas Instruments China R&amp;D; and Vivek
+Sharma, Global Director, Channel Business Development Group, Intel Sales &amp;
+Marketing Group. This afternoon, Curtis Sasaki, Vice President of Ecosystems
+and IoT General Manager, Samsung Electronics; Jo Shum, Senior Director and
+General Manager, Lighting Hong Kong and Macau, Philips Electronics HK Limited;
+and Fred Sheu, General Manager, HP Software, Hewlett</span></span><span style=\"font-size:9.0pt;font-family:宋体;color:black;background:white;\">‐</span><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">Packard HKSAR Limi</span><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">ted will speak at the conference on the theme of “The
+Future Vision of IoT.” &nbsp;</span><span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\">&nbsp;</span></span><strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"></span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">Current trends in
+Smart Tech</span></strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"> <span style=\"background:white;\">Beyond the conference, IoT is an overarching
+theme at this year’s Electronics Fair. A wide variety of IoT-enabled devices
+are being presented in the Smart Tech zone, which is filled with brands
+including Intel and Haier. IoT-enhanced products on display include smart cups
+that automatically record nutritional information and a smart home device that
+makes air conditioning more efficient by collecting environmental data
+including temperature, humidity and air ventilation as well as information
+about outdoor weather conditions. This is used to automatically achieve the
+optimum settings for the air conditioner. &nbsp; The Robotics and Unmanned Tech
+zone has its own variety of smart technology on hand. Aerial cameras,
+remote-controlled drones and electric scooters are just some of the innovative
+projects on show. Throughout the fair period, visitors to the “Unmanned Aerial
+Vehicle” area will be able to see live demonstrations of drones in action.
+&nbsp;</span></span><span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\">&nbsp;</span></span><strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"></span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">Connecting businesses
+to new opportunities</span></strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"> <span style=\"background:white;\">Throughout the fair, events ranging from product
+demos and seminars to buyer forums will give attendees a glimpse of the latest
+trends in a wide variety of tech sectors. Opportunities in different regions
+will also be explained, with a seminar focusing on the Shenzhen IT ecosystem taking
+place tomorrow and another on opportunities in India the following day (15
+Oct). “Future Trend of Robotics and Industry 4.0” will be the focus of the Hong
+Kong Electronic Industry Summit happening on Thursday. &nbsp; An opening day
+highlight of the fair is this evening’s award presentation of the 2015 HKEIA
+Award organised by The Hong Kong Electronic Industries Association Ltd. A
+product demo for the winners on Thursday will give visitors a chance to see
+these innovations in action. &nbsp;</span></span><span class=\"apple-converted-space\"><span style=\"font-size:10.5pt;font-family:Verdana;color:black;background:white;\">&nbsp;</span></span><strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"></span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\"><br />
+</span></strong>
+</p>
+<p>
+	<strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;background:white;\">Tech hardware at electronicAsia</span></strong><span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"></span>
+</p>
+<p>
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"> <span style=\"background:white;\">Jointly presented by the HKTDC and MMI Asia Pte
+Ltd, electronicAsia is a hub for tech hardware which will feature a dedicated
+zone for Keyboards &amp; Switches for the first time this year. Keyboards &amp;
+Switches is among six thematic zones which include the popular World of Display
+Technology and Printed Circuit Board zones. Apart from the Chinese mainland
+pavilion, the fair welcomes new participation of two pavilions from Taiwan and
+Japan’s City of Saitama. &nbsp; The fair also presents seminars and forums on
+the Latest Trends and Applications of Components in Mobility Devices and
+Opportunities in Emerging Markets. <br />
+</span></span>
+</p>
+<p>
+	<br />
+<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"><span style=\"background:white;\"></span></span>
+</p>
+<p align=\"left\">
+	<span style=\"font-size:9.0pt;font-family:Verdana;color:black;\"><span style=\"background:white;\"><img src=\"/ucreate-pcb-co/Uploads/image/2015/20151019165408_68532.png\" alt=\"\" /><img src=\"/ucreate-pcb-co/Uploads/image/2015/20151019165422_52910.png\" alt=\"\" /><br />
+</span></span>
+</p>','0','admin','2015-10-19 22:54:29') [ RunTime:0.0814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011417s ]
+
+[ 2015-10-19T22:54:30+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-10-19T22:54:33+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2015-10-19T22:54:34+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2015-10-19T22:54:35+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2015-10-19T22:54:36+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2015-10-19T22:54:40+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/alter.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `uc_news` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-10-19T22:56:08+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-10-19T22:56:10+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-10-19T22:58:19+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-10-19T22:58:21+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-10-19T22:58:24+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0087s ]
+SQL: INSERT INTO `uc_news_en` (`title`,`content`,`click`,`controller`,`created_time`) VALUES ('1','2','0','admin','2015-10-19 22:58:24') [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-10-19T22:58:25+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-10-19T22:58:28+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/delete_en_handle.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0017s ]
+SQL: DELETE FROM `uc_news_en` WHERE `id` = 2 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-10-19T22:58:30+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-10-19T22:58:31+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-10-19T22:59:24+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-10-19T22:59:25+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/alter_en.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news_en` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-10-19T22:59:28+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-10-19T22:59:30+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/NewsController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `uc_news_en` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_news_en` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `uc_news_en` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-10-19T22:59:31+08:00 ] ::1 /ucreate-pcb-co/admin.php/News/add_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
