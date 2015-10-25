@@ -42,9 +42,9 @@
             </li>
 			<li><a title="" href="#">产品中心</a>
             	<ul class="sub-menu">
-					<li><a href="proshowhard.html">硬板</a></li>
-					<li><a href="proshowsoft.html">软板</a></li>
-                    <li><a href="proshowhs.html">软硬结合版</a></li>
+					<li><a href="<?php echo U('Production/hard');?>?lang=zh-cn">硬板</a></li>
+                    <li><a href="<?php echo U('Production/soft');?>?lang=zh-cn">软板</a></li>
+                    <li><a href="<?php echo U('Production/mixture');?>?lang=zh-cn">软硬结合版</a></li>
 				</ul>
             </li>
 			<li><a title="" href="#">技术支持</a>
