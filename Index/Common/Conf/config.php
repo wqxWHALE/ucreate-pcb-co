@@ -1,5 +1,6 @@
 <?php
-$dbConfig = include('Common/Conf/db_config.php');
+$dbConfig     = include('Common/Conf/db_config.php');
+$publicConfig = include('Common/Conf/public.php');
 $appConfig =  array(
     // 调试页
     'SHOW_PAGE_TRACE' =>false,
@@ -20,4 +21,4 @@ $appConfig =  array(
     'SAVE_COOKIE_TIME' => 7200,
 );
 
-return array_merge($appConfig, $dbConfig);
+return array_merge($appConfig, $dbConfig, $publicConfig);

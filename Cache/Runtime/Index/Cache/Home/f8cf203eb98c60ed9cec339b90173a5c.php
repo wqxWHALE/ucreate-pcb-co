@@ -213,13 +213,22 @@ if(fullAdName){
                         <div class="new_time">2015-8-29</div>
                     </li>
             	</ul>
+                
+                 <div class="pageTest"></div>
+                    <script type="text/javascript" src="js/page.js"></script>
+                    <script type="text/javascript">
+                    $('.pageTest').page({
+                      leng: 3,//分页总数
+                      activeClass: 'activP' , //active 类样式定义
+                    })
+                    </script>
                 	
-            	<div class="wp-pagenavi">
+            	<!---<div class="wp-pagenavi">
             		<span class="pages">Page 1 of 3</span><span class="current">1</span>
                 		<a class="page larger" href="#">2</a>
                 		<a class="page larger" href="#">3</a>
                 		<a class="nextpostslink" rel="next" href="#">»</a>
-            	</div>        
+            	</div>        --->
         	</div>  
             
             

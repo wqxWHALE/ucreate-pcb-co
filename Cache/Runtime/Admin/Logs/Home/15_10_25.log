@@ -1596,3 +1596,1165 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
 
+[ 2015-10-25T17:08:09+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-10-25T17:10:47+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/alter.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-10-25T17:10:53+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/alter_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0021s ]
+SQL: UPDATE `uc_text` SET `content`='<div align=\"center\">
+	<p>
+		<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151003083229_32520.jpg\" alt=\"\" /> 
+	</p>
+	<div class=\"p_box\" align=\"left\">
+		<p>
+			合创电路公司，成立于2004年，是一家专业从事高密度多层印制板的制造企业。公司经过多年的发展为 
+满足了客户对快交期，高品质，大批量一站式的需求于深圳和惠州设立工厂，总占地面积超过12000平米，月生产能力达到30000平米，现有员工800
+人，其中具有10年以上行业的管理、工程技术人员共150人。
+		</p>
+		<p>
+			公司产品包括：多层板、高频板、铝基板、高Tg厚铜箔板 
+混合介质板、HDI、刚柔结合板、特种基板及定制各种特定要求的印制电路板；广泛应用于通讯、电源、计算机网络、数码产品、工业控制、医疗、航空航天等高
+新科技领域；远销美洲、欧洲及亚洲等地区，并受到客户的一致认同。
+		</p>
+		<p>
+			公司通过ISO9001质量管理体系认证和ISO14001环境管理体系认证，产品获得美国及加拿大UL安全认证和ROHS产品认证。
+		</p>
+		<p>
+			\"一流的质量，准确的交期，客户的满意，持续跟进，不断发展，共同创新\"是公司秉承的宗旨。
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+</div>',`controller`='admin',`created_time`='2015-10-25 17:10:53' WHERE `id` = 1 [ RunTime:0.1125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-10-25T17:10:54+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-25T17:11:03+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/alter.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2015-10-25T17:11:07+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/alter_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0018s ]
+SQL: UPDATE `uc_text` SET `content`='<div align=\"center\">
+	<p>
+		<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151003083229_32520.jpg\" alt=\"\" /> 
+	</p>
+	<div class=\"p_box\" align=\"left\">
+		<p>
+			合创电路公司，成立于2004年，是一家专业从事高密度多层印制板的制造企业。公司经过多年的发展为 
+满足了客户对快交期，高品质，大批量一站式的需求于深圳和惠州设立工厂，总占地面积超过12000平米，月生产能力达到30000平米，现有员工800
+人，其中具有10年以上行业的管理、工程技术人员共150人。
+		</p>
+		<p>
+			公司产品包括：多层板、高频板、铝基板、高Tg厚铜箔板 
+混合介质板、HDI、刚柔结合板、特种基板及定制各种特定要求的印制电路板；广泛应用于通讯、电源、计算机网络、数码产品、工业控制、医疗、航空航天等高
+新科技领域；远销美洲、欧洲及亚洲等地区，并受到客户的一致认同。
+		</p>
+		<p>
+			公司通过ISO9001质量管理体系认证和ISO14001环境管理体系认证，产品获得美国及加拿大UL安全认证和ROHS产品认证。
+		</p>
+		<p>
+			\"一流的质量，准确的交期，客户的满意，持续跟进，不断发展，共同创新\"是公司秉承的宗旨。
+		</p>
+	</div>
+</div>',`controller`='admin',`created_time`='2015-10-25 17:11:07' WHERE `id` = 1 [ RunTime:0.0717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-25T17:11:08+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-25T17:25:16+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS_EN' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-10-25T17:25:18+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `uc_visitor` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_visitor`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_visitor`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-25T17:25:19+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME_EN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE_EN' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN_EN' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU_EN' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-10-25T18:02:38+08:00 ] ::1 /ucreate-pcb-co/admin.php/Support/device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021790s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [2048] Declaration of Home\Controller\SupportController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/SupportController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'DEVICE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'DEVICE'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-10-25T18:17:58+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME_EN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE_EN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN_EN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU_EN' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-10-25T18:18:00+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/alter_user.html?id=2&name=%E5%A4%87%E6%A1%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-10-25T18:18:02+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/alter_user_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0016s ]
+SQL: UPDATE `uc_webinfo` SET `content`='粤ICP备11072830',`controller`='admin',`created_time`='2015-10-25 18:18:02' WHERE `id` = 2 [ RunTime:0.0584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-10-25T18:18:04+08:00 ] ::1 /ucreate-pcb-co/admin.php/Operation/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME_EN' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE_EN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYSHENZHEN_EN' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FACTORYHUIZHOU_EN' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2015-10-25T18:37:48+08:00 ] ::1 /ucreate-pcb-co/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'HOMEPAGE' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'FIGURE' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-10-25T18:37:48+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-10-25T18:39:17+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022022s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-10-25T18:39:20+08:00 ] ::1 /ucreate-pcb-co/admin.php/Support/device.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2048] Declaration of Home\Controller\SupportController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Controller/SupportController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'DEVICE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'DEVICE'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-10-25T18:39:23+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-10-25T18:39:25+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-10-25T18:40:31+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011339s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0018s ]
+SQL: UPDATE `uc_text` SET `content`='<p>
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151003171555_75697.png\" alt=\"\" height=\"16\" width=\"16\" /><span style=\"font-size:14px;\"> 企业核心理念： 发奋图强，共创辉煌</span> 
+</p>
+<p>
+	<img src=\"http://localhost/ucreate-pcb-co/Uploads/image/2015/20151003171555_75697.png\" alt=\"\" height=\"16\" width=\"16\" /><span style=\"font-size:14px;\"> 经营理念：了解顾客需求，贯彻品质标准，提高服务质量</span> 
+</p>
+<p>
+	<img src=\"http://localhost/ucreate-pcb-co/Uploads/image/2015/20151003171555_75697.png\" alt=\"\" height=\"16\" width=\"16\" /><span style=\"font-size:14px;\"> 质量宗旨：一流的质量，准确的交期，客户的满意，持续的跟进</span> 
+</p>
+<p>
+	<img src=\"http://localhost/ucreate-pcb-co/Uploads/image/2015/20151003171555_75697.png\" alt=\"\" height=\"16\" width=\"16\" /><span style=\"font-size:14px;\"> 公司管理理念：细心、精心、用心，品质永保称心</span> 
+</p>
+<p>
+	<span style=\"font-size:16px;\"><img src=\"http://localhost/ucreate-pcb-co/Uploads/image/2015/20151003171555_75697.png\" alt=\"\" height=\"16\" width=\"16\" /><span style=\"font-size:14px;\"> 核心价值取向：以顾客为中心，以质量为核心</span></span>
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114006_64371.jpg\" alt=\"\" />
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114028_82971.jpg\" alt=\"\" /><br />
+<span style=\"font-size:16px;\"></span> 
+</p>',`controller`='admin',`created_time`='2015-10-25 18:40:30' WHERE `id` = 7 [ RunTime:0.0905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011097s ]
+
+[ 2015-10-25T18:40:32+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-10-25T18:40:34+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-10-25T18:42:02+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-10-25T18:42:27+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0022s ]
+SQL: UPDATE `uc_text` SET `content`='<ul>
+	<li>
+		<span style=\"font-size:14px;\">企业核心理念： 发奋图强，共创辉煌</span> 
+	</li>
+</ul>
+<ul>
+	<li>
+		<span style=\"font-size:14px;\">经营理念：了解顾客需求，贯彻品质标准，提高服务质量</span> 
+	</li>
+</ul>
+<ul>
+	<li>
+		<span style=\"font-size:14px;\">&nbsp;质量宗旨：一流的质量，准确的交期，客户的满意，持续的跟进</span> 
+	</li>
+</ul>
+<ul>
+	<li>
+		<span style=\"font-size:14px;\">公司管理理念：细心、精心、用心，品质永保称心</span> 
+	</li>
+</ul>
+<ul>
+	<li>
+		<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">核心价值取向：以顾客为中心，以质量为核心</span></span> 
+	</li>
+</ul>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114006_64371.jpg\" alt=\"\" /> 
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114028_82971.jpg\" alt=\"\" /><br />
+<span style=\"font-size:16px;\"></span> 
+</p>',`controller`='admin',`created_time`='2015-10-25 18:42:26' WHERE `id` = 7 [ RunTime:0.0708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2015-10-25T18:42:28+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-10-25T18:42:41+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-10-25T18:43:23+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: UPDATE `uc_text` SET `content`='<span style=\"font-size:14px;\">●企业核心理念： 发奋图强，共创辉煌</span> <br />
+<span style=\"font-size:14px;\">●经营理念：了解顾客需求，贯彻品质标准，提高服务质量</span> <br />
+<span style=\"font-size:14px;\"> ●质量宗旨：一流的质量，准确的交期，客户的满意，持续的跟进</span> <br />
+<span style=\"font-size:14px;\">●公司管理理念：细心、精心、用心，品质永保称心</span> <br />
+<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">●核心价值取向：以顾客为中心，以质量为核心</span></span> 
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114006_64371.jpg\" alt=\"\" /> 
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114028_82971.jpg\" alt=\"\" /><br />
+<span style=\"font-size:16px;\"></span> 
+</p>',`controller`='admin',`created_time`='2015-10-25 18:43:23' WHERE `id` = 7 [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-10-25T18:43:24+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-10-25T18:43:34+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-10-25T18:43:55+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0019s ]
+SQL: UPDATE `uc_text` SET `content`='<span style=\"font-size:14px;\">●企业核心理念： 发奋图强，共创辉煌</span> <br />
+<span style=\"font-size:14px;\">●经营理念：了解顾客需求，贯彻品质标准，提高服务质量</span> <br />
+<span style=\"font-size:14px;\">●质量宗旨：一流的质量，准确的交期，客户的满意，持续的跟进</span> <br />
+<span style=\"font-size:14px;\">●公司管理理念：细心、精心、用心，品质永保称心</span> <br />
+<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">●核心价值取向：以顾客为中心，以质量为核心</span></span> 
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114006_64371.jpg\" alt=\"\" /> 
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114028_82971.jpg\" alt=\"\" /><br />
+<span style=\"font-size:16px;\"></span> 
+</p>',`controller`='admin',`created_time`='2015-10-25 18:43:55' WHERE `id` = 7 [ RunTime:0.0697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-10-25T18:43:56+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-10-25T18:44:36+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `uc_text` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2015-10-25T18:44:49+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/alter_spirit_text_handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0017s ]
+SQL: UPDATE `uc_text` SET `content`='<div align=\"left\">
+	<span style=\"font-size:14px;\">●企业核心理念： 发奋图强，共创辉煌</span><br />
+</div>
+<div align=\"left\">
+	<span style=\"font-size:14px;\">●经营理念：了解顾客需求，贯彻品质标准，提高服务质量</span><br />
+</div>
+<div align=\"left\">
+	<span style=\"font-size:14px;\">●质量宗旨：一流的质量，准确的交期，客户的满意，持续的跟进</span><br />
+<span style=\"font-size:14px;\">●公司管理理念：细心、精心、用心，品质永保称心</span><br />
+<span style=\"font-size:16px;\"><span style=\"font-size:14px;\">●核心价值取向：以顾客为中心，以质量为核心</span></span>
+</div>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114006_64371.jpg\" alt=\"\" /> 
+</p>
+<p align=\"center\">
+	<img src=\"/ucreate-pcb-co/Uploads/image/2015/20151025114028_82971.jpg\" alt=\"\" /><br />
+<span style=\"font-size:16px;\"></span> 
+</p>',`controller`='admin',`created_time`='2015-10-25 18:44:49' WHERE `id` = 7 [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-10-25T18:44:50+08:00 ] ::1 /ucreate-pcb-co/admin.php/Culture/spirit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-10-25T18:52:41+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-10-25T18:52:56+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index_en.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS_EN' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-10-25T18:52:58+08:00 ] ::1 /ucreate-pcb-co/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'HOMEPAGE' ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'FIGURE' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-10-25T18:53:01+08:00 ] ::1 /ucreate-pcb-co/admin.php/About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Admin/Home/Conf/config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'ABOUTUS' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'CONSTRUCTION' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
