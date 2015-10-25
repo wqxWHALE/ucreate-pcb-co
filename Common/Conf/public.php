@@ -16,6 +16,8 @@ return array (
 	'惠州工厂英文' => 'FACTORYHUIZHOU_EN',
 
 	// 模块
+	'首页模块' => 'HOMEPAGE',
+	'配图'    => 'FIGURE',
 	'关于我们' => 'ABOUTUS',
 	'关于我们英文' => 'ABOUTUS_EN',
 	'市场成就' => 'ACHIEVEMENT',

@@ -149,6 +149,10 @@
       <li ><a href="<?php echo U('Operation/visitor');?>">访问者详情</a></li>      
     </ul>
 
+    <a href="<?php echo U('Homepage/index');?>" class="nav-header">
+      <i class="icon-tag"></i>首页模块
+    </a>
+
     <a href="<?php echo U('About/index');?>" class="nav-header">
       <i class="icon-user"></i>关于我们
     </a>
