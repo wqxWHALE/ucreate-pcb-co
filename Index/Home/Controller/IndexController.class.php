@@ -23,8 +23,16 @@ class IndexController extends CommonController {
         // 基础信息
         $this->name     = M('webinfo')->where(array('type' => C('公司名')))->find();
         $this->office   = M('webinfo')->where(array('type' => C('办公室')))->find();
-        $this->factory  = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
-        $this->factory  = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
+        $this->factory_shenzhen  = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
+        $this->factory_huizhou   = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
+        // 侧边新闻
+        $news = M('news')->order('created_time desc')->limit(5)->select();
+        foreach ($news as $key => $value) {
+            $temp = explode(' ',$value['created_time']);
+            $news[$key]['created_time'] = $temp[0];
+        }
+        $this->news = $news;
+
     	$this->display('index_cn');
     }
 
@@ -38,6 +46,14 @@ class IndexController extends CommonController {
         $this->office           = M('webinfo')->where(array('type' => C('办公室英文')))->find();
         $this->factory_shenzhen = M('webinfo')->where(array('type' => C('深圳工厂英文')))->find();
         $this->factory_huizhou  = M('webinfo')->where(array('type' => C('惠州工厂英文')))->find();
+        // 侧边新闻
+        $news = M('news_en')->order('created_time desc')->limit(5)->select();
+        foreach ($news as $key => $value) {
+            $temp = explode(' ',$value['created_time']);
+            $news[$key]['created_time'] = $temp[0];
+        }
+        $this->news = $news;
+        
 		$this->display('index_en');
     }
 

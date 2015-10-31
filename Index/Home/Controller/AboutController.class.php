@@ -19,11 +19,14 @@ class AboutController extends CommonController {
         // 关于我们
         $where       = array('type' => C('关于我们'));
         $this->about = M('text')->where($where)->find();
+        // 企业精神
+        $where       = array('type' => C('企业精神'));
+        $this->spirit = M('text')->where($where)->find();
         // 基础信息
         $this->name     = M('webinfo')->where(array('type' => C('公司名')))->find();
         $this->office   = M('webinfo')->where(array('type' => C('办公室')))->find();
-        $this->factory  = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
-        $this->factory  = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
+        $this->factory_shenzhen  = M('webinfo')->where(array('type' => C('深圳工厂')))->find();
+        $this->factory_huizhou   = M('webinfo')->where(array('type' => C('惠州工厂')))->find();
     	$this->display('index_cn');
     }
 
@@ -32,6 +35,9 @@ class AboutController extends CommonController {
         // 关于我们
         $where       = array('type' => C('关于我们英文'));
         $this->about = M('text')->where($where)->find();
+        // 企业精神
+        $where       = array('type' => C('企业精神英文'));
+        $this->spirit = M('text')->where($where)->find();
         // 基础信息
         $this->name             = M('webinfo')->where(array('type' => C('公司名英文')))->find();
         $this->office           = M('webinfo')->where(array('type' => C('办公室英文')))->find();
@@ -73,9 +79,7 @@ class AboutController extends CommonController {
         // 组织架构
         $where       = array('type' => C('组织架构'));
         $this->construction = M('picture')->where($where)->find(); 
-        // 企业精神
-        $where       = array('type' => C('企业精神'));
-        $this->spirit = M('text')->where($where)->find();
+    
         // 配图
         $where        = array('type' => C('配图'));
         $this->figure = M('picture')->where($where)->find();

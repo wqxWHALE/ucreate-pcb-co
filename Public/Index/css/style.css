@@ -1,5 +1,5 @@
 
-*{margin:0px;padding:0px;text-transform: uppercase;}
+*{margin:0px;padding:0px;}
 a{color:#2D393F;text-decoration:none;}
 a,font{color:#000;}
 a:focus,a:active,a:hover {text-decoration: none;}
@@ -138,7 +138,6 @@ h5 {
 }
 h6 {
 	font-size: 16px;
-	text-transform: uppercase;
 }
 p {
     margin:10px 0px 0px;
@@ -502,7 +501,6 @@ main_right .right_new , main_right .right_contact{
 }
 main_right h6 , .pro_introduce .pro_box h6 , .pro_introduce .pro_box h6 a , .qual_introduce h6 , .idea_box h6{
 	padding:6px 6px 6px;
-	text-transform:uppercase;
 	color:#666;
 	border-bottom: 1px solid #DBDBDB;
 }

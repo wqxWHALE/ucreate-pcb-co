@@ -16,62 +16,60 @@
             	<img alt="" src="/ucreate-pcb-co/Public/Image/LOGO2.png">
             	<div id="trans">
                 	<div class="contry_box">
-                    	<a href="#">
+                    	<a href="?lang=zh-cn">
                         	<img alt="" src="/ucreate-pcb-co/Public/Image/contry01.jpg">
                             <div class="text_center">中文</div>
                        </a>
                    </div> 
                    <div class="contry_box">
-                   		<a href="#">
+                   		<a href="?lang=en-us">
                         	<img alt="" src="/ucreate-pcb-co/Public/Image/contry02.jpg">
                             <div class="text_center">English</div>
                        </a>
                   </div>
               </div>
             </div>
-<!--导航---->
 <nav id="main-nav" class="clearfix">
-	<div class="container clearfix">
-    	<ul class="root">
-    		<li class="current_page_item current-menu-item"><a href="<?php echo U('Index/index');?>?lang=zh-cn">首页</a></li>
-			<li><a href="<?php echo U('About/index');?>?lang=zh-cn">关于我们</a>
-            	<ul class="sub-menu">
-					<li><a href="<?php echo U('About/index');?>?lang=zh-cn">公司简介</a></li>
-					<li><a href="<?php echo U('About/achievement');?>?lang=zh-cn">市场成就</a></li>
-				</ul>
+    <div class="container clearfix">
+        <ul class="root">
+            <li class="current_page_item current-menu-item" ><a href="<?php echo U('Index/index');?>?lang=zh-cn">首页</a></li>
+            <li><a href="<?php echo U('About/index');?>?lang=zh-cn">关于我们</a>
+                <ul class="sub-menu">
+                    <li><a href="<?php echo U('About/index');?>?lang=zh-cn">公司简介</a></li>
+                    <li><a href="<?php echo U('About/achievement');?>?lang=zh-cn">市场成就</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">产品中心</a>
-            	<ul class="sub-menu">
-					<li><a href="proshowhard.html">硬板</a></li>
-					<li><a href="proshowsoft.html">软板</a></li>
-                    <li><a href="proshowhs.html">软硬结合版</a></li>
-				</ul>
+            <li><a title="" href="#">产品中心</a>
+                <ul class="sub-menu">
+                    <li><a href="<?php echo U('Production/hard');?>?lang=zh-cn">硬板</a></li>
+                    <li><a href="<?php echo U('Production/soft');?>?lang=zh-cn">软板</a></li>
+                    <li><a href="<?php echo U('Production/mixture');?>?lang=zh-cn">软硬结合版</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">技术支持</a>
-            	<ul class="sub-menu">
-					<li><a href="macshow.html">设备展示</a></li>
-					<li><a href="process.html">生产流程</a></li>
-                    <li><a href="capacity.html">生产能力</a></li>
-				</ul>
+            <li><a title="" href="#">技术支持</a>
+                <ul class="sub-menu">
+                    <li><a href="<?php echo U('Support/device');?>?lang=zh-cn">设备展示</a></li>
+                    <li><a href="<?php echo U('Support/process');?>?lang=zh-cn">生产流程</a></li>
+                    <li><a href="<?php echo U('Support/ability');?>?lang=zh-cn">生产能力</a></li>
+                </ul>
             </li>
-			<li><a title="" href="quality.html">资质证书</a></li>
-			<li><a title="" href="#">企业文化</a>
-            	<ul class="sub-menu">
-					<li><a href="culture.html">企业精神</a></li>
-					<li><a href="new.html">新闻中心</a></li>
-				</ul>
+            <li><a title="" href="<?php echo U('Quality/index');?>?lang=zh-cn">资质证书</a></li>
+            <li><a title="" href="#">企业文化</a>
+                <ul class="sub-menu">
+                    <li><a href="<?php echo U('Culture/index');?>?lang=zh-cn">企业理念</a></li>
+                    <li><a href="<?php echo U('Culture/news');?>?lang=zh-cn">新闻中心</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">人才招聘</a>
-            	<ul class="sub-menu">
-					<li><a href="talentidea.html">人才理念</a></li>
-					<li><a href="welfare.html">酬薪福利</a></li>
-				</ul>
+            <li><a title="" href="#">人才招聘</a>
+                <ul class="sub-menu">
+                    <li><a href="<?php echo U('Recruit/idea');?>?lang=zh-cn">人才理念</a></li>
+                    <li><a href="<?php echo U('Recruit/welfare');?>?lang=zh-cn">酬薪福利</a></li>
+                </ul>
             </li>
-			<li><a title="" href="contact.html">联系我们</a></li>
-			<li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
+            <li><a title="" href="<?php echo U('Contact/index');?>?lang=zh-cn">联系我们</a></li>
+            <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
 </nav><!-- #main-nav -->
 </header>
-<!--导航结束--->
 
 
 
@@ -190,28 +188,12 @@ if(fullAdName){
         	<div class="right_new">
         		<h6>企业新闻</h6>
             	<ul style="">
-            		<li>
-                        <a href="newdetail.html">上海嘉定首届科技博览会开幕</a>
-                        <div class="new_time">2011-08-29</div>
-                    </li>
-                    <li>
-                        <a href="newdetail.html">余杭将再次成为全国电子商务焦点</a>
-                        <div class="new_time">2011-08-29</div>
-                    </li>
-                    <li>
-                        <a href="newdetail.html">台资扩张大陆电子市场 机遇挑战并存</a>
-                        <div class="new_time">2015-8-29</div>
-                    </li>
+            		<?php if(is_array($news)): foreach($news as $key=>$data): ?><li>
+                            <a href="<?php echo U('Culture/news_content_cn');?>?id=<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a>
+                            <div class="new_time"><?php echo ($data["created_time"]); ?></div>
+                        </li><?php endforeach; endif; ?>
             	</ul>
                 
-                 <div class="pageTest"></div>
-                    <script type="text/javascript" src="/ucreate-pcb-co/Public/Index/js/page.js"></script>
-                    <script type="text/javascript">
-                    $('.pageTest').page({
-                      leng: 3,//分页总数
-                      activeClass: 'activP' , //active 类样式定义
-                    })
-                    </script>
                 	
         	</div>  
             

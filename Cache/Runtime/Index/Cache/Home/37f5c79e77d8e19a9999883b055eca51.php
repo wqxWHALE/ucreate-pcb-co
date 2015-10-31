@@ -50,29 +50,29 @@
             </li>
             <li><a title="" href="#">技术支持</a>
                 <ul class="sub-menu">
-                    <li><a href="macshow.html">设备展示</a></li>
-                    <li><a href="process.html">生产流程</a></li>
-                    <li><a href="capacity.html">生产能力</a></li>
+                    <li><a href="<?php echo U('Support/device');?>?lang=zh-cn">设备展示</a></li>
+                    <li><a href="<?php echo U('Support/process');?>?lang=zh-cn">生产流程</a></li>
+                    <li><a href="<?php echo U('Support/ability');?>?lang=zh-cn">生产能力</a></li>
                 </ul>
             </li>
-            <li><a title="" href="quality.html">资质证书</a></li>
+            <li><a title="" href="<?php echo U('Quality/index');?>?lang=zh-cn">资质证书</a></li>
             <li><a title="" href="#">企业文化</a>
                 <ul class="sub-menu">
-                    <li><a href="culture.html">企业理念</a></li>
-                    <li><a href="new.html">新闻中心</a></li>
+                    <li><a href="<?php echo U('Culture/index');?>?lang=zh-cn">企业理念</a></li>
+                    <li><a href="<?php echo U('Culture/news');?>?lang=zh-cn">新闻中心</a></li>
                 </ul>
             </li>
             <li><a title="" href="#">人才招聘</a>
                 <ul class="sub-menu">
-                    <li><a href="talentidea.html">人才理念</a></li>
-                    <li><a href="welfare.html">酬薪福利</a></li>
+                    <li><a href="<?php echo U('Recruit/idea');?>?lang=zh-cn">人才理念</a></li>
+                    <li><a href="<?php echo U('Recruit/welfare');?>?lang=zh-cn">酬薪福利</a></li>
                 </ul>
             </li>
-            <li><a title="" href="contact.html">联系我们</a></li>
+            <li><a title="" href="<?php echo U('Contact/index');?>?lang=zh-cn">联系我们</a></li>
             <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
 </nav><!-- #main-nav -->
 </header>
-<!--导航结束--->
+<!--导航结束-->
 
 <!--内容-->
 <div id="main">
@@ -182,8 +182,7 @@
     <div id="footer">
     	<div class="container">
     		<div class="foot_box">Copyright © <?php echo ($name["content"]); ?> 电话:<?php echo ($telephone["content"]); ?> 传真:<?php echo ($fax["content"]); ?> 备案:<?php echo ($beian["content"]); ?>
-</div>
-        	
+            </div>
         </div>
     </div>
     

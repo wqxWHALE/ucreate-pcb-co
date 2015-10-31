@@ -17,6 +17,8 @@ class ProductionController extends CommonController {
 
     // 中文
     public function hard_cn(){
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名')))->find();
     	$this->display('hard_cn');
     }
 

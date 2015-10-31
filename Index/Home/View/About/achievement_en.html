@@ -2,76 +2,74 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>合创电路有限公司</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-<script src="./js/jquery.min.js"></script>
-<script src="./js/1-6-10.esl.js"></script>
-<script src="./js/jquery.circliful.min.js"></script>
+<title>{$name.content}</title>
+<link href="__PUBLIC__/Index/css/style.css" rel="stylesheet" type="text/css" media="all">
+<script src="__PUBLIC__/Index/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Index/js/1-6-10.esl.js"></script>
+<script src="__PUBLIC__/Index/js/jquery.circliful.min.js"></script>
 </head>
 
 <body class="home blog custom-background">
-	<div class="wrapper">
-		<header id="branding" >
-        	<!--<img src="images/LOGO.jpg">---->
-            <div class="main_top">
-            	<img alt="" src="images/LOGO2.png">
-            	<div id="trans">
-                	<div class="contry_box">
-                    	<a href="#">
-                        	<img alt="" src="images/contry01.jpg">
+    <div class="wrapper">
+        <header id="branding" >
+            <!--<img src="images/LOGO.jpg">-->
+             <div class="main_top">
+                <img alt="" src="__PUBLIC__/Image/LOGO2.png">
+                <div id="trans">
+                    <div class="contry_box">
+                        <a href="?lang=zh-cn">
+                            <img alt="" src="__PUBLIC__/Image/contry01.jpg">
                             <div class="text_center">中文</div>
                        </a>
                    </div> 
                    <div class="contry_box">
-                   		<a href="#">
-                        	<img alt="" src="images/contry02.jpg">
+                        <a href="?lang=en-us">
+                            <img alt="" src="__PUBLIC__/Image/contry02.jpg">
                             <div class="text_center">English</div>
                        </a>
                   </div>
               </div>
             </div>
-<!--导航---->
 <nav id="main-nav" class="clearfix">
-	<div class="container clearfix">
-    	<ul class="root">
-    		<li><a href="index.html">首页</a></li>
-			<li class="current_page_item current-menu-item"><a href="about.html">关于我们</a>
-            	<ul class="sub-menu">
-					<li><a href="about.html">公司简介</a></li>
-					<li><a href="achievement.html">市场成就</a></li>
-				</ul>
+    <div class="container clearfix">
+        <ul class="root">
+            <li><a href="{:U('Index/index')}">Home</a></li>
+            <li class="current_page_item current-menu-item" ><a href="{:U('About/index')}">About us</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('About/index')}">Company Profile</a></li>
+                    <li><a href="{:U('About/achievement')}">Market Success</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">产品中心</a>
-            	<ul class="sub-menu">
-					<li><a href="proshowhard.html">硬板</a></li>
-					<li><a href="proshowsoft.html">软板</a></li>
-                    <li><a href="proshowhs.html">软硬结合版</a></li>
-				</ul>
+            <li><a title="" href="#">Product Center</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Production/hard')}">Rigid PCB</a></li>
+                    <li><a href="{:U('Production/soft')}">FPC</a></li>
+                    <li><a href="{:U('Production/mixture')}">Rigid-flex</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">技术支持</a>
-            	<ul class="sub-menu">
-					<li><a href="macshow.html">设备展示</a></li>
-					<li><a href="process.html">生产流程</a></li>
-                    <li><a href="capacity.html">生产能力</a></li>
-				</ul>
+            <li><a title="" href="#">Technical Support</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Support/device')}">Equipment Display</a></li>
+                    <li><a href="{:U('Support/process')}">Technological Process</a></li>
+                    <li><a href="{:U('Support/ability')}">Technical Capability</a></li>
+                </ul>
             </li>
-			<li><a title="" href="quality.html">资质证书</a></li>
-			<li><a title="" href="#">企业文化</a>
-            	<ul class="sub-menu">
-					<li><a href="culture.html">企业理念</a></li>
-					<li><a href="new.html">新闻中心</a></li>
-				</ul>
+            <li><a title="" href="{:U('Quality/index')}">Qualification Certificate</a></li>
+            <li><a title="" href="#">Culture</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Culture/index')}">Corporate Philosophy</a></li>
+                    <li><a href="{:U('Culture/news')}">News</a></li>
+                </ul>
             </li>
-			<li><a title="" href="#">人才招聘</a>
-            	<ul class="sub-menu">
-					<li><a href="talentidea.html">人才理念</a></li>
-					<li><a href="welfare.html">酬薪福利</a></li>
-				</ul>
+            <li><a title="" href="#">Join Us</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Recruit/idea')}">Talents Principle</a></li>
+                    <li><a href="{:U('Recruit/welfare')}">Compensation And Benefit</a></li>
+                </ul>
             </li>
-            <li><a title="" href="contact.html">联系我们</a></li>
-			<li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
+            <li><a title="" href="{:U('Contact/index')}">Contact us</a></li>
+            <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
 </nav><!-- #main-nav -->
-</header>
 <!--导航结束--->
 
 
@@ -79,68 +77,68 @@
 
 <!--内容-->
 <div class="callbacks_container">
-       <img src="images/headpic01.jpg" alt="">
-</div>
+            <img src="__ROOT__{$figure.pic_adr}" width="100%" alt="">
+        </div>
 
 <div id="main">
-	<div class="container">
-        	
+    <div class="container">
+            
             <div class="achieve_text">
                 <div class="market_title">
-                    <h5>市场成就</h5>
+                    <h5>Market Success</h5>
                 </div>
                <div class="market_show">
                     <ul>
-                        <li>公司产品主要出口欧美</li>
-                        <li>客户群遍布全球30多个国家</li>
-                        <li>公司产品广泛应用于各种行业</li>
+                        <li>Products are mainly exported to Europe and USA;</li>
+                        <li>Our customers spread over more than 30 countries;</li>
+                        <li>Products are widely used in various industries.</li>
                     </ul>
                </div>
         </div>
         
         
             <div class="achieve_4">
-            	<h3>市场分布</h3>
+                <h3>市场分布</h3>
                 <font>Market distribution</font>
-                <img alt="" src="images/map.jpg">
+                <img alt="" src="__PUBLIC__/Image/map.jpg">
                 <div class="achieve_box">
-        			<div class="box" id="myStat01" data-dimension="200" data-text="10%" data-info="" data-width="30" data-fontsize="38" data-percent="10" data-fgcolor="#61a9dc" data-bgcolor="#eee"></div>
+                    <div class="box" id="myStat01" data-dimension="200" data-text="10%" data-info="" data-width="30" data-fontsize="38" data-percent="10" data-fgcolor="#61a9dc" data-bgcolor="#eee"></div>
                     <h4>China</h4>
                 </div>
                 <div class="achieve_box">
-        			<div class="box" id="myStat02" data-dimension="200" data-text="9%" data-info="" data-width="30" data-fontsize="38" data-percent="9" data-fgcolor="#87d7a5" data-bgcolor="#eee"></div>
+                    <div class="box" id="myStat02" data-dimension="200" data-text="9%" data-info="" data-width="30" data-fontsize="38" data-percent="9" data-fgcolor="#87d7a5" data-bgcolor="#eee"></div>
                     <h4>Asia</h4>
                 </div>
                 <div class="achieve_box">
-        			<div class="box" id="myStat03" data-dimension="200" data-text="48%" data-info="" data-width="30" data-fontsize="38" data-percent="48" data-fgcolor="#fbad4c" data-bgcolor="#eee"></div>
+                    <div class="box" id="myStat03" data-dimension="200" data-text="48%" data-info="" data-width="30" data-fontsize="38" data-percent="48" data-fgcolor="#fbad4c" data-bgcolor="#eee"></div>
                     <h4>Europe</h4>
                 </div>
                 <div class="achieve_box">
-        			<div class="box" id="myStat04" data-dimension="200" data-text="33%" data-info="" data-width="30" data-fontsize="38" data-percent="33" data-fgcolor="#7ea568" data-bgcolor="#eee"></div>
+                    <div class="box" id="myStat04" data-dimension="200" data-text="33%" data-info="" data-width="30" data-fontsize="38" data-percent="33" data-fgcolor="#7ea568" data-bgcolor="#eee"></div>
                     <h4>America</h4>
                 </div>
 
                 <script type="text/javascript">
-				$( document ).ready(function() {
-				$('#myStat01').circliful();
-				$('#myStat02').circliful();
-   				$('#myStat03').circliful();
-    			$('#myStat04').circliful();
-    			});
-			</script>
-        	</div>
-        	
+                $( document ).ready(function() {
+                $('#myStat01').circliful();
+                $('#myStat02').circliful();
+                $('#myStat03').circliful();
+                $('#myStat04').circliful();
+                });
+            </script>
+            </div>
+            
             
             
             
                      <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
             <div id="showdata" style="height:500px;margin-top:20px;background:#FFF;"></div>
-					<script type="text/javascript">
+                    <script type="text/javascript">
                 // 路径配置
                 require.config({
                     paths:{ 
-                        'echarts' : './js/echarts',
-                        'echarts/chart/pie' : './js/echarts'
+                        'echarts' : '__PUBLIC__/Index/js/echarts',
+                        'echarts/chart/pie' : '__PUBLIC__/Index/js/echarts'
                     }
                 });
                 
@@ -156,9 +154,9 @@
                         var option = {
             title : {
                 text: '产品应用',
-				subtext:'Product application',
+                subtext:'Product application',
                 x:'center',
-				y:'30'
+                y:'30'
             },
             tooltip : {
                 trigger: 'item',
@@ -178,47 +176,45 @@
                     radius : '55%',
                     center: ['50%', '50%'],
                     data:[
-						{value:26, name:'consuming消费类电子'},
+                        {value:26, name:'consuming消费类电子'},
                         {value:3, name:'industry control工业控制'},
-						{value:7, name:'computer计算机'},
-						{value:5.5, name:'security安防电子'},
-						{value:1, name:'automotive汽车电子'},
-						{value:16, name:'power electronics电源电子'},
-						{value:2, name:'aerospace航空航天'},
-						{value:10, name:'medical医疗仪器'},
-						{value:0.5, name:'others其他'},
+                        {value:7, name:'computer计算机'},
+                        {value:5.5, name:'security安防电子'},
+                        {value:1, name:'automotive汽车电子'},
+                        {value:16, name:'power electronics电源电子'},
+                        {value:2, name:'aerospace航空航天'},
+                        {value:10, name:'medical医疗仪器'},
+                        {value:0.5, name:'others其他'},
                         {value:29, name:'telecom通信设备'},
                     ]
                 }
             ]
-        };	
+        };  
         myChart.setOption(option); 
             }
         );
         </script>
-  		
+        
             
         
         
-		
-		
-	
-	
         
-	</div><!-- .container -->
+        
+    
+    
+        
+    </div><!-- .container -->
 </div>
     
     <div id="footer">
-    	<div class="container">
-    		<div class="foot_box">Copyright © 合创电路有限公司 电话:+86 0755-89230220 传真:0755-89250616     粤ICP备11072830
-</div>
-        	
+        <div class="container">
+            <div class="foot_box">Copyright © {$name.content} Tel:{$telephone.content} Fax:{$fax.content} Records:{$beian.content}</div>   
         </div>
-    </div><!--.footer-->
+    </div>
     
 </div>
 
-	
+    
 </div>
 
 
