@@ -17,13 +17,13 @@
                 <img alt="" src="/ucreate-pcb-co/Public/Image/LOGO2.png">
                 <div id="trans">
                     <div class="contry_box">
-                        <a href="#">
+                        <a href="?lang=zh-cn">
                             <img alt="" src="/ucreate-pcb-co/Public/Image/contry01.jpg">
                             <div class="text_center">中文</div>
                        </a>
                    </div> 
                    <div class="contry_box">
-                        <a href="#">
+                        <a href="?lang=en-us">
                             <img alt="" src="/ucreate-pcb-co/Public/Image/contry02.jpg">
                             <div class="text_center">English</div>
                        </a>
@@ -171,7 +171,7 @@
                         </li>
                     </ul>
                 </div>
-            </div><!--pro_box----><?php endforeach; endif; else: echo "" ;endif; ?>
+            </div><!--pro_box--><?php endforeach; endif; else: echo "" ;endif; ?>
               
          
 </div><!-- .container -->

@@ -30,6 +30,8 @@ class SupportController extends CommonController {
         // 设备简介
         $where       = array('type' => C('设备简介英文'));
         $this->device = M('text')->where($where)->find();
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
 		$this->display('device_en');
     }
 
