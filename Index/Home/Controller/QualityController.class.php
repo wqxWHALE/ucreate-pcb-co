@@ -23,7 +23,8 @@ class QualityController extends CommonController {
 
     // 英文
     public function index_en(){
-
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
 		$this->display('index_en');
     }
 

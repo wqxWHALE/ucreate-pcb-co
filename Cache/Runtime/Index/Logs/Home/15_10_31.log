@@ -13464,3 +13464,219 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
 
+[ 2015-10-31T23:25:39+08:00 ] ::1 /ucreate-pcb-co/index.php/Quality/index.html?lang=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'QUALITY' ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2015-10-31T23:25:41+08:00 ] ::1 /ucreate-pcb-co/index.php/Quality/index.html?lang=en-us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'QUALITY' ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME_EN' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-10-31T23:25:48+08:00 ] ::1 /ucreate-pcb-co/index.php/Quality/index.html?lang=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'QUALITY' ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-10-31T23:25:49+08:00 ] ::1 /ucreate-pcb-co/index.php/Culture/index.html?lang=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'BUILD'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'BUILD' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-10-31T23:25:57+08:00 ] ::1 /ucreate-pcb-co/index.php/Culture/news.html?lang=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'OFFICE' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Controller/CultureController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `uc_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `uc_news` ORDER BY created_time desc LIMIT 0,11   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: new /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Controller/CultureController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-10-31T23:25:57+08:00 ] ::1 /ucreate-pcb-co/index.php/Culture/images/headpic01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+
+[ 2015-10-31T23:25:59+08:00 ] ::1 /ucreate-pcb-co/index.php/Culture/index.html?lang=zh-cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Conf/config.php 第 17 行.
+NOTIC: [2] include(simple_html_dom.php): failed to open stream: No such file or directory /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+NOTIC: [2] include(): Failed opening 'simple_html_dom.php' for inclusion (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') /Applications/XAMPP/xamppfiles/htdocs/ucreate-pcb-co/Index/Home/Common/function.php 第 2 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `uc_webinfo` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'BEIAN' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'TELEPHONE' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'FAX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'EMAIL' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'WEBSITE' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `uc_picture` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `uc_picture` WHERE `type` = 'BUILD'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `uc_text` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'SPIRIT' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `uc_text` WHERE `type` = 'BUILD' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `uc_webinfo` WHERE `type` = 'NAME' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
