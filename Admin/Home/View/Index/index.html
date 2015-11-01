@@ -14,18 +14,26 @@
 
   <script src="__PUBLIC__/Admin/Index/jquery-1.7.2.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() 
+        $(document).ready(function() 
     {  
       $("li").click(function(){
-          $('.nav').children('li').attr('class','#');
-          $('.nav-list').children('li').attr('class','#');
-          $(this).attr('class','active');
+          $('.sidebar-nav').children('li').attr('class','#');
+          $(this).attr('data-toggle','collapsed');
       });
-      $(".nav-header").click(function(){
-          $('.nav').children('li').attr('class','#');
-          $('.nav-list').children('li').attr('class','#');
-      });
+      callApplicationCount();
     });
+
+    function callApplicationCount(){
+      $.getJSON("{:U('Index/getApplicationCount')}", function (data, status, xhr) {
+          if(data != "0")
+          {
+            var text = '<span class="label label-info" style="background-color:#C03111;">' + '+' + data + '</span>';
+            $("#callApplicationCount").html(text);
+          }else{
+            $("#callApplicationCount").html("");
+          }
+      });
+    }
 
     function myModalImage(src){
       $("#mymodali").attr("src",src);
@@ -226,17 +234,17 @@
       <i class="icon-legal"></i>人才招聘(英文)
     </a>
 
-    <a href="#" class="nav-header" data-toggle="collapse">
-      <i class="icon-comment"></i>联系我们
-      <span class="label label-info" style="background-color:#C03111;">+3</span>
-    </a>
-
     <a href="{:U('News/index')}" class="nav-header" >
       <i class="icon-bullhorn"></i>新闻中心
     </a>
 
     <a href="{:U('News/index_en')}" class="nav-header" >
       <i class="icon-bullhorn"></i>新闻中心(英文)
+    </a>
+
+    <a href="{:U('Contact/index')}" class="nav-header">
+      <i class="icon-comment"></i>联系我们
+      <div id="callApplicationCount" style="float:right;" ></div>
     </a>
 
   </div>

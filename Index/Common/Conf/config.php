@@ -21,4 +21,12 @@ $appConfig =  array(
     'SAVE_COOKIE_TIME' => 7200,
 );
 
-return array_merge($appConfig, $dbConfig, $publicConfig);
+$mailConfig = array(
+    //'配置项'=>'配置值'
+    'MAIL_ADDRESS'   => 'ucreatepcbrobot@sina.com',  // 邮箱地址  
+    'MAIL_LOGINNAME' => 'ucreatepcbrobot@sina.com',  // 邮箱登录帐号
+    'MAIL_SMTP'      => 'smtp.sina.com',             // 邮箱SMTP服务器
+    'MAIL_PASSWORD'  => 'aa123456789',               // 邮箱密码
+);
+
+return array_merge($appConfig, $dbConfig, $publicConfig, $mailConfig);

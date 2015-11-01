@@ -25,7 +25,7 @@ class IndexController extends CommonController {
             'is_read'   => 0,
             'is_active' => 1
         );
-        $count = M('application')->where($where)->count();
+        $count = M('contact')->where($where)->count();
         // ajax返回
         $this->ajaxReturn($count);
     }

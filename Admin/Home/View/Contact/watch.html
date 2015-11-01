@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>联系我们</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Admin/Css/Common.css" rel="stylesheet">
+
+    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                查看
+            </h1>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class="row">
+        <div class="col-md-12">
+            <ol class="breadcrumb">
+              <li><a href="{:U('Contact/index')}">联系我们</a></li>
+              <li class="active">查看</li>
+            </ol>
+        </div>
+    </div>
+    <form class="form-signin" role="form" action="{:U('Contact/isRead_handle')}" method='post' id="form">
+    <!-- 主体 -->
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td style="width:150px;">姓名:</td>
+                  <td>{$data.name}</td>
+                </tr>
+                <tr>
+                  <td>公司名:</td>
+                  <td>{$data.company_name}</td>
+                </tr>
+                <tr>
+                  <td>邮件:</td>
+                  <td>{$data.email}</td>
+                </tr>
+                <tr>
+                  <td>联系电话:</td>
+                  <td>{$data.telephone}</td>
+                </tr>
+                <tr>
+                  <td>内容:</td>
+                  <td>{$data.comments}</td>
+                </tr>
+                <tr>
+                    <td>读取状态:</td>
+                    <td>
+                        <if condition="$data.is_read eq 0"> 
+                            未读
+                        <else />
+                            已读
+                        </if>
+                    </td>
+                </tr>
+                <tr>
+                    <td>发送状态:</td>
+                    <td>
+                        <if condition="$data.is_send eq 0"> 
+                            未发送到邮箱
+                        <else />
+                            已发送到邮箱
+                        </if>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+            <input name="id" value="{$data.id}" type="hidden">
+            <if condition="$data.is_read eq 0"> 
+                <div style="float:right;"><button type="submit" class="btn btn-primary">标记为已读</button></div>
+            </if>
+        </div>
+    </div>
+    </form>
+    <!-- 说明 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bs-callout bs-callout-info" id="callout-alerts-dismiss-plugin">
+                <h4>说明</h4>
+                <p>联系我们名单。</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

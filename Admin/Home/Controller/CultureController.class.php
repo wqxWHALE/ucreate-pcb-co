@@ -199,9 +199,6 @@ class CultureController extends CommonController {
     /* 设备展示添加处理 */
     public function add_picture_handle(){
         // 输入限制
-        if($_POST['title'] == "" ){
-            $this->error("请输入标题");
-        }
         if($_POST['img'] == 0 ){
             $this->error("请选择图片上传");
         }
@@ -214,7 +211,6 @@ class CultureController extends CommonController {
         // 构造数据
         $data = array(
             'id'           => $id,
-            'title'        => $_POST['title'],
             'type'         => C('企业文化建设'),
             'pic_adr'      => $pic_adr,
             'controller'   => $_SESSION['loginname'],

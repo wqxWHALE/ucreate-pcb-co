@@ -69,7 +69,7 @@
             <li><a title="" href="<?php echo U('Contact/index');?>">Contact us</a></li>
             <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
 </nav><!-- #main-nav -->
-
+</header>
 <!--导航结束--->
 
 

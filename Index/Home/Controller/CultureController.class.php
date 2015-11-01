@@ -37,6 +37,8 @@ class CultureController extends CommonController {
         // 文字
         $where       = array('type' => C('企业文化建设英文'));
         $this->build = M('text')->where($where)->find();
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
         
 		$this->display('index_en');
     }
@@ -132,6 +134,25 @@ class CultureController extends CommonController {
         // 基础信息
         $this->name     = M('webinfo')->where(array('type' => C('公司名')))->find();
         $this->office   = M('webinfo')->where(array('type' => C('办公室')))->find();
+        $this->display();
+    }
+
+    public function news_content_en(){
+        // 具体新闻
+        $id = $_GET['id'];
+        $this->data = M('news_en')->find($id);
+        // 侧边新闻
+        $news = M('news_en')->order('created_time desc')->limit(5)->select();
+        foreach ($news as $key => $value) {
+            $temp = explode(' ',$value['created_time']);
+            $news[$key]['created_time'] = $temp[0];
+        }
+        $this->news = $news;
+        // 侧边信息
+        $this->common();
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
+        $this->office   = M('webinfo')->where(array('type' => C('办公室英文')))->find();
         $this->display();
     }
 

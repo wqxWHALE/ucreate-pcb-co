@@ -11,7 +11,7 @@
 <body class="home blog custom-background">
     <div class="wrapper">
         <header id="branding" >
-            <!--<img src="images/LOGO.jpg">---->
+            <!--<img src="images/LOGO.jpg">-->
              <div class="main_top">
                 <img alt="" src="/ucreate-pcb-co/Public/Image/LOGO2.png">
                 <div id="trans">

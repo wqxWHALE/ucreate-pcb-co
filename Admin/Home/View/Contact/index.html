@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>联系我们</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Admin/Css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Admin/Js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/docs.min.js"></script>
+    <script src="__PUBLIC__/Admin/Js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Admin/Css/Common.css" rel="stylesheet">
+
+    <link href="__PUBLIC__/Admin/Css/Operation.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                名单
+            </h1>
+        </div>
+    </div>
+    <!-- 名单 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12" style="margin-bottom:10px;">
+                    <div style="float:left;margin-top:-5px;">
+                        <h4>总共{$count}名单未读</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                  <th class="col-md-3"><div align="center">公司名</div></th>
+                                  <th class="col-md-2"><div align="center">E-mail</div></th>
+                                  <th class="col-md-2"><div align="center">联系人姓名</div></th>
+                                  <th class="col-md-2"><div align="center">提交时间</div></th>
+                                  <th class="col-md-1"><div align="center">状态</div></th>
+                                  <th class="col-md-2"><div align="center">操作</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name="contact" item="data" key="key">
+                                    <tr>
+                                        <th scope="row">
+                                            <div align="center" style="padding-top:6px;">
+                                                {$data.company_name}
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div align="center" style="padding-top:6px;">
+                                                {$data.email}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div align="center" style="padding-top:6px;">
+                                                {$data.name}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div align="center" style="padding-top:6px;">
+                                                {$data.created_time}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div align="center">
+                                                <div align="center" style="padding-top:6px;">
+                                                    <if condition="$data.is_read eq 0"> 
+                                                        <div style="color:#C03111">未读</div>
+                                                    <else />
+                                                        已读
+                                                    </if>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div align="center">
+                                                <div style="width:200px;">
+                                                    <a type="button" class="btn btn-info" href="{:U('Contact/watch')}?id={$data.id}">点击查看</a>
+                                                    <a type="button" class="btn btn-danger" href="{:U('Contact/delete_handle')}?id={$data.id}">删 除</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </foreach>
+                            </tbody>
+                        </table>       
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="float:right;">
+                    <nav>
+                      <ul class="pagination">
+                        {$page}
+                     </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 说明 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bs-callout bs-callout-advice" id="callout-alerts-dismiss-plugin">
+                <h4>说明</h4>
+                <p>“点击查看”可修改读取状态。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

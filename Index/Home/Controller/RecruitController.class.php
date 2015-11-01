@@ -26,7 +26,11 @@ class RecruitController extends CommonController {
 
     // 英文
     public function idea_en(){
-
+        // 人才理念
+        $where       = array('type' => C('人才理念英文'));
+        $this->idea = M('text')->where($where)->find();
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
 		$this->display('idea_en');
     }
 
@@ -53,7 +57,11 @@ class RecruitController extends CommonController {
 
     // 英文
     public function welfare_en(){
-
+        // 酬薪福利
+        $where       = array('type' => C('酬薪福利英文'));
+        $this->welfare = M('text')->where($where)->find();
+        // 基础信息
+        $this->name     = M('webinfo')->where(array('type' => C('公司名英文')))->find();
 		$this->display('welfare_en');
     }
 

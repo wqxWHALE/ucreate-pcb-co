@@ -9,6 +9,58 @@
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
+<script type="text/javascript">
+function checkEmail()
+ {
+  var emailValue=document. getElementById("email").value;
+  if (!isEmail(emailValue))
+  {
+   alert("您输入的邮箱有误,请重新核对后再输入!");
+   document. getElementById("email").focus();
+   return false;
+  }
+  var nameValue=document. getElementById("name").value;
+  if(!checkNull('name')){
+    alert("请输入发件人");
+    document. getElementById("name").focus();
+    return false;
+  }
+
+  if(!checkNull('company_name')){
+    alert("请输入公司名");
+    document. getElementById("company_name").focus();
+    return false;
+  }
+
+  if(!checkNull('telephone')){
+    alert("请输入手机");
+    document. getElementById("telephone").focus();
+    return false;
+  }
+
+  if(!checkNull('comments')){
+    alert("请输入内容");
+    document. getElementById("comments").focus();
+    return false;
+  }
+  document.forms['form'].submit();
+  return true;
+ }
+
+function checkNull(str){
+    var name = document.getElementById(str).value.replace(/[]/g,"");//把所有空格去掉
+    if(name.length==0){
+        return false;
+    }
+    return true;
+}
+ 
+function isEmail(str){
+    var reg = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
+    return reg.test(str);
+}
+</script>
+
 <body class="home blog custom-background">
     <div class="wrapper">
         <header id="branding" >
@@ -17,13 +69,13 @@
                 <img alt="" src="__PUBLIC__/Image/LOGO2.png">
                 <div id="trans">
                     <div class="contry_box">
-                        <a href="#">
+                        <a href="?lang=zh-cn">
                             <img alt="" src="__PUBLIC__/Image/contry01.jpg">
                             <div class="text_center">中文</div>
                        </a>
                    </div> 
                    <div class="contry_box">
-                        <a href="#">
+                        <a href="?lang=en-us">
                             <img alt="" src="__PUBLIC__/Image/contry02.jpg">
                             <div class="text_center">English</div>
                        </a>
@@ -72,16 +124,13 @@
             <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
 </nav><!-- #main-nav -->
 </header>
-
 <!--导航结束--->
-
-
 
 
 <!--内容-->
 <div class="callbacks_container">
-        	<img src="images/headpic01.jpg" alt="">
-        </div>
+    <img src="__ROOT__{$figure.pic_adr}" width="100%" alt="">
+</div>
 
 
 <div id="main">
@@ -124,30 +173,30 @@
                 
                 <div class="map_box"style="width:450px;height:350px;border:#ccc solid 1px;" id="dituContent01"></div>
                 </div>
-                <form enctype="multipart/form-data" class="form-signin" role="form" action="{:U('Contact/add_contact_cn')}" method='post' id="form">
+                <form enctype="multipart/form-data" class="form-signin" role="form" action="{:U('Contact/add_contact_cn')}" method='post' id="form" name="form">
                 <div class="contact_data">
                     <font>发件人</font>
                     <div class="contact_input">
-                    	<input name="name" tyle="text">
+                    	<input id="name" name="name" tyle="text">
                     </div>
                     <font>e-mail</font>
                     <div class="contact_input">
-                    	<input name="email" tyle="text">
+                    	<input id="email" name="email" tyle="text">
                     </div>
                     <font>公司</font>
                     <div class="contact_input">
-                    	<input name="company" tyle="text">
+                    	<input id="company_name" name="company_name" tyle="text">
                     </div>
                     <font>电话</font>
                     <div class="contact_input">
-                    	<input name="telephone" tyle="text">
+                    	<input id="telephone" name="telephone" tyle="text">
                     </div>
                     <font>内容</font>
                     <div class="contact_input">
-                    	<textarea name="content" ></textarea>
+                    	<textarea id="comments" name="comments" ></textarea>
                     </div>
-                    <div class="contact_btn_box" align="center">
-                    	<input type="submit" value="提交" style="width:160px;" class="btn btn-bottom" />
+                    <div class="contact_btn_box">
+                        <a href="#" class="btn btn-bottom" onclick="checkEmail()">提交</a>
                     </div>
                 </div>
                 </form>

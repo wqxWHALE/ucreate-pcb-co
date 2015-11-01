@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$name.content}</title>
+<link href="__PUBLIC__/Index/css/style.css" rel="stylesheet" type="text/css" media="all">
+<script src="__PUBLIC__/Index/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Index/js/zzsc.js"></script>
+</head>
+
+<body class="home blog custom-background">
+    <div class="wrapper">
+        <header id="branding" >
+            <!--<img src="images/LOGO.jpg">-->
+             <div class="main_top">
+                <img alt="" src="__PUBLIC__/Image/LOGO2.png">
+                <div id="trans">
+                    <div class="contry_box">
+                        <a href="?lang=zh-cn">
+                            <img alt="" src="__PUBLIC__/Image/contry01.jpg">
+                            <div class="text_center">中文</div>
+                       </a>
+                   </div> 
+                   <div class="contry_box">
+                        <a href="?lang=en-us">
+                            <img alt="" src="__PUBLIC__/Image/contry02.jpg">
+                            <div class="text_center">English</div>
+                       </a>
+                  </div>
+              </div>
+            </div>
+<!--导航-->
+<nav id="main-nav" class="clearfix">
+    <div class="container clearfix">
+        <ul class="root">
+            <li><a href="{:U('Index/index')}">Home</a></li>
+            <li><a href="{:U('About/index')}">About us</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('About/index')}">Company Profile</a></li>
+                    <li><a href="{:U('About/achievement')}">Market Success</a></li>
+                </ul>
+            </li>
+            <li><a title="" href="#">Product Center</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Production/hard')}">Rigid PCB</a></li>
+                    <li><a href="{:U('Production/soft')}">FPC</a></li>
+                    <li><a href="{:U('Production/mixture')}">Rigid-flex</a></li>
+                </ul>
+            </li>
+            <li><a title="" href="#">Technical Support</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Support/device')}">Equipment Display</a></li>
+                    <li><a href="{:U('Support/process')}">Technological Process</a></li>
+                    <li><a href="{:U('Support/ability')}">Technical Capability</a></li>
+                </ul>
+            </li>
+            <li><a title="" href="{:U('Quality/index')}">Qualification Certificate</a></li>
+            <li class="current_page_item current-menu-item" ><a title="" href="#">Culture</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Culture/index')}">Corporate Philosophy</a></li>
+                    <li><a href="{:U('Culture/news')}">News</a></li>
+                </ul>
+            </li>
+            <li><a title="" href="#">Join Us</a>
+                <ul class="sub-menu">
+                    <li><a href="{:U('Recruit/idea')}">Talents Principle</a></li>
+                    <li><a href="{:U('Recruit/welfare')}">Compensation And Benefit</a></li>
+                </ul>
+            </li>
+            <li><a title="" href="{:U('Contact/index')}">Contact us</a></li>
+            <li class="default-menu"><a href="#" title="Navigation">Navigation</a></li></ul></div>
+</nav><!-- #main-nav -->
+</header>
+
+<!--内容-->
+<div id="main">
+	<div class="container">
+        
+        <div class="comidea_introduce">
+         	<div class="comidea_title">
+            	<h5>Spirit of the Enterprise</h5>
+            </div>
+         	<div class="comidea_box">
+            {$spirit.content}
+          </div>
+        </div>
+        
+        <div class="comidea_introduce">
+         	<div class="comidea_title">
+            	<h5>Enterprise Cultural Construction</h5>
+            </div>
+         	<div class="comidea_box">
+            	<p>{$build.content}</p>
+            </div>
+            
+            <div class="comidea_box">
+                <volist name="picture" id="data" >
+                  <div class="comidea_img_box">
+                  	<div class="comidea_img">
+                    	<img  alt="" src="__ROOT__{$data.pic_adr}">
+                    <!-- <h6>外出旅游</h6> -->
+                    </div>
+                  </div>
+                </volist>
+            </div>
+        </div>
+        
+      </div>
+      </div>  
+    
+    
+    <div id="footer">
+        <div class="container">
+            <div class="foot_box">Copyright © {$name.content} Tel:{$telephone.content} Fax:{$fax.content} Records:{$beian.content}</div>   
+        </div>
+    </div>
+    
+</div>
+
+	
+</div>
+
+
+
+</body>
+</html>
