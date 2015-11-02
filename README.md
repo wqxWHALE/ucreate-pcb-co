@@ -1,9 +1,9 @@
 # ucreate-pcb-co
 >合创电路有限公司网站
 >
->前台:[@wqxWHALE](https://github.com/wqxWHALE)
+>前端:[@wqxWHALE](https://github.com/wqxWHALE)
 >
->后台:[@chenmingbiao](https://github.com/chenmingbiao)
+>后端:[@chenmingbiao](https://github.com/chenmingbiao)
 
 ---
 
