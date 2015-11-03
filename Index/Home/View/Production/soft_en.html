@@ -90,7 +90,7 @@
                     <div class="box">
                         <div class="picbox">
                             <ul class="piclist mainlist">
-                                <volist name="soft" id="data" offset='0' length='12' >
+                                <volist name="soft" id="data" >
                                     <li><a href="#" target="_blank"><img src="__ROOT__{$data.pic_adr}"/></a></li>
                                 </volist>
                             </ul>
@@ -111,38 +111,54 @@
                 <div class="pro_textshow">
                     <h6><a name="hs01">{$data.name}</a></h6>
                     <ul>
-                        <li>
-                            Layers
-                            <div class="pro_data">{$data.boardlayer}</div>
-                        </li>
-                        <li>
-                            Thickness
-                            <div class="pro_data">{$data.boardthickness}</div>
-                        </li>
-                        <li>
-                            BGA
-                            <div class="pro_data">{$data.BGA}</div>
-                        </li>
-                        <li>
-                            Min line width/space
-                            <div class="pro_data">{$data.minilinewidth}</div>
-                        </li>
-                         <li>
-                            Min hole size
-                            <div class="pro_data">{$data.minihole}</div>
-                        </li>
-                        <li>
-                            Copper Thickness
-                            <div class="pro_data">{$data.copperthickness}</div>
-                        </li>
-                        <li>
-                            Surface finish
-                            <div class="pro_data">{$data.surfacetreatment}</div>
-                        </li>
-                         <li>
-                            Size
-                            <div class="pro_data">{$data.size}</div>
-                        </li>
+                        <if condition="$data.boardlayer neq ''">
+                            <li>
+                                Layers
+                                <div class="pro_data">{$data.boardlayer}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.boardthickness neq ''">
+                            <li>
+                                Thickness
+                                <div class="pro_data">{$data.boardthickness}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.BGA neq ''">
+                            <li>
+                                BGA
+                                <div class="pro_data">{$data.BGA}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.minilinewidth neq ''">
+                            <li>
+                                Min line width/space
+                                <div class="pro_data">{$data.minilinewidth}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.minihole neq ''">
+                            <li>
+                                Min hole size
+                                <div class="pro_data">{$data.minihole}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.copperthickness neq ''">
+                            <li>
+                                Copper Thickness
+                                <div class="pro_data">{$data.copperthickness}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.surfacetreatment neq ''">
+                            <li>
+                                Surface finish
+                                <div class="pro_data">{$data.surfacetreatment}</div>
+                            </li>
+                        </if>
+                        <if condition="$data.size neq ''">
+                            <li>
+                                Size
+                                <div class="pro_data">{$data.size}</div>
+                            </li>
+                        </if>
                     </ul>
                 </div>
             </div><!--pro_box-->

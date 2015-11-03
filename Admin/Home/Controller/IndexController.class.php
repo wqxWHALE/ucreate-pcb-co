@@ -44,7 +44,7 @@ class IndexController extends CommonController {
     ///////////////////////////////////////////////////////////////////////////
 
     /* 修改密码界面 */
-    public function changePassword(){
+    public function changepassword(){
         // 读取昵称
         $data = M('admin')->find(1);
         $this->nickname = $data['nickname'];
@@ -53,7 +53,7 @@ class IndexController extends CommonController {
     }
 
     /* 修改密码处理 */
-    public function changePasswordHandle(){
+    public function changepasswordHandle(){
         // 判断是否使用POST提交，防偷入
         if(!IS_POST) halt('页面不存在');
         // 获取提交的账号密码
