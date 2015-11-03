@@ -40,6 +40,10 @@ class SupportController extends CommonController {
         // 设备展示
         $where       = array('type' => C('设备展示'));
         $this->show  = M('picture')->where($where)->select();
+
+        // 配图
+        $where        = array('type' => C('配图'));
+        $this->figure = M('picture')->where($where)->find();
     }
 
     public function process(){

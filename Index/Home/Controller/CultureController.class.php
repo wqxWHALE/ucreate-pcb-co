@@ -116,6 +116,10 @@ class CultureController extends CommonController {
         $this->fax       = M('webinfo')->where(array('type' => C('传真')))->find();
         $this->email     = M('webinfo')->where(array('type' => C('邮箱')))->find();
         $this->website   = M('webinfo')->where(array('type' => C('网站')))->find();
+        
+        // 配图
+        $where        = array('type' => C('配图'));
+        $this->figure = M('picture')->where($where)->find();
     }
 
     public function news_content_cn(){
