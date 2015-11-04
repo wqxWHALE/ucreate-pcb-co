@@ -505,8 +505,7 @@ main_right h6 , .pro_introduce .pro_box h6 , .pro_introduce .pro_box h6 a , .qua
 	border-bottom: 1px solid #DBDBDB;
 }
 .pro_introduce .pro_box h6 , .comidea_img h6{
-	font-family:"Microsoft Himalaya";
-	font-weight:normal;
+	font-weight:bold;
 	margin-top:5px;
 }
 .qual_bbox > h6{

@@ -20,6 +20,10 @@ class IndexController extends CommonController {
         // 关于我们
         $where       = array('type' => C('关于我们'));
         $this->about = M('text')->where($where)->find();
+        // if(mb_strlen($str,'utf-8') > 20){
+        //     $this->about['content'] = mb_substr($str,0,20,'utf-8');
+        // }
+        // p($this->about);die;
         // 基础信息
         $this->name     = M('webinfo')->where(array('type' => C('公司名')))->find();
         $this->office   = M('webinfo')->where(array('type' => C('办公室')))->find();

@@ -86,12 +86,12 @@
          		<h5>企业动态</h5>
                  <div class="new_title">
                     <ul>
-                        <li>
-                            <foreach name="news" item="data">
+                        <foreach name="news" item="data">
+                            <li>
                                 <a href="{:U('Culture/news_content_cn')}?id={$data.id}">{$data.title}</a>
                                 <div class="new_time">{$data.created_time}</div>
-                            </foreach>
-                        </li>
+                            </li>
+                        </foreach>
                     </ul>
                 </div>
                 
